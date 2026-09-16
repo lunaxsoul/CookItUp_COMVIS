@@ -1,4 +1,4 @@
-package com.digdaya.food_classifier_app
+package com.cookitup.food_classifier
 
 import io.flutter.embedding.android.FlutterActivity
 

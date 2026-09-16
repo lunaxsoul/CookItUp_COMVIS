@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.digdaya.food_classifier_app"
+    namespace = "com.cookitup.food_classifier"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -15,13 +15,8 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.digdaya.food_classifier_app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        applicationId = "com.cookitup.food_classifier"
         minSdk = flutter.minSdkVersion
-        // Dikunci ke 34 (bukan flutter.targetSdkVersion) — lihat README.md
-        // bagian "Catatan konfigurasi Android".
         targetSdk = 34
         versionCode = flutter.versionCode
         versionName = flutter.versionName
