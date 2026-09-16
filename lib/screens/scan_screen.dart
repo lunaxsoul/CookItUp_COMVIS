@@ -5,8 +5,7 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-// further development
-// import 'gallery_screen.dart';
+import 'gallery_screen.dart';
 import 'analyzing_screen.dart';
 
 import '../services/classifier_service.dart';
@@ -44,27 +43,25 @@ class _FoodScanScreenState extends State<FoodScanScreen> {
     try {
       String? imagePath;
 
-      final picked = await _picker.pickImage(
-        source: source,
-        imageQuality: 90,
-      );
-      imagePath = picked?.path;
-
-      // further dev
-      // if (source == ImageSource.gallery) {
-      //   imagePath = await Navigator.of(context).push<String>(
-      //     MaterialPageRoute(
-      //       builder: (_) => const GalleryScreen(),
-      //       fullscreenDialog: true,
-      //     ),
-      //   );
-      // } else {
-      //   final picked = await _picker.pickImage(
-      //     source: ImageSource.camera,
-      //     imageQuality: 90,
-      //   );
-      //   imagePath = picked?.path;
-      // }
+      if (source == ImageSource.gallery) {
+        final result = await Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => const GalleryScreen(),
+            fullscreenDialog: true,
+          ),
+        );
+        if (result is String) {
+          imagePath = result;
+        } else if (result is List && result.isNotEmpty) {
+          imagePath = result.first as String;
+        }
+      } else {
+        final picked = await _picker.pickImage(
+          source: ImageSource.camera,
+          imageQuality: 90,
+        );
+        imagePath = picked?.path;
+      }
 
       if (imagePath == null) return;
 
