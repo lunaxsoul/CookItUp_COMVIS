@@ -183,10 +183,10 @@ class _AnalyzingScreenState extends State<AnalyzingScreen>
                     width: 76,
                     height: 76,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.055),
+                      color: Colors.white.withValues(alpha: 0.055),
                       shape: BoxShape.circle,
                       border: Border.all(
-                        color: Colors.white.withOpacity(0.08),
+                        color: Colors.white.withValues(alpha: 0.08),
                       ),
                     ),
                     child: Icon(
@@ -236,7 +236,7 @@ class _AnalyzingScreenState extends State<AnalyzingScreen>
                           boxShadow: current
                               ? [
                                   BoxShadow(
-                                    color: accent.withOpacity(0.35),
+                                    color: accent.withValues(alpha: 0.35),
                                     blurRadius: 8,
                                     spreadRadius: 2,
                                   ),
@@ -276,7 +276,7 @@ class _AnalyzingScreenState extends State<AnalyzingScreen>
                     style: TextStyle(
                       color: active
                           ? const Color(0xFFE1EBE7)
-                          : secondaryText.withOpacity(0.72),
+                          : secondaryText.withValues(alpha: 0.72),
                       fontSize: 12,
                       fontWeight: current ? FontWeight.w500 : FontWeight.w400,
                     ),
@@ -346,7 +346,7 @@ class _ScannerPainter extends CustomPainter {
     final basePaint = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1.5
-      ..color = Colors.white.withOpacity(0.10);
+      ..color = Colors.white.withValues(alpha: 0.10);
 
     canvas.drawCircle(center, radius, basePaint);
 

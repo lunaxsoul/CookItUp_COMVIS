@@ -3,9 +3,10 @@ import 'dart:typed_data';
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
+import 'package:image_picker/image_picker.dart' show ImageSource;
 
 import 'gallery_screen.dart';
+import 'camera_screen.dart';
 import 'analyzing_screen.dart';
 
 import '../services/classifier_service.dart';
@@ -21,7 +22,6 @@ class FoodScanScreen extends StatefulWidget {
 }
 
 class _FoodScanScreenState extends State<FoodScanScreen> {
-  final _picker = ImagePicker();
 
   @override
   void initState() {
@@ -37,6 +37,15 @@ class _FoodScanScreenState extends State<FoodScanScreen> {
   bool _isClassifying = false;
   String? _errorMessage;
 
+  Future<String?> _openGallery() {
+    return Navigator.of(context).push<String>(
+      MaterialPageRoute(
+        builder: (_) => const GalleryScreen(),
+        fullscreenDialog: true,
+      ),
+    );
+  }
+
   Future<void> _pickImage(ImageSource source) async {
     setState(() => _errorMessage = null);
 
@@ -44,26 +53,17 @@ class _FoodScanScreenState extends State<FoodScanScreen> {
       String? imagePath;
 
       if (source == ImageSource.gallery) {
-        final result = await Navigator.of(context).push(
+        imagePath = await _openGallery();
+      } else {
+        imagePath = await Navigator.of(context).push<String>(
           MaterialPageRoute(
-            builder: (_) => const GalleryScreen(),
+            builder: (_) => CameraScreen(onPickFromGallery: _openGallery),
             fullscreenDialog: true,
           ),
         );
-        if (result is String) {
-          imagePath = result;
-        } else if (result is List && result.isNotEmpty) {
-          imagePath = result.first as String;
-        }
-      } else {
-        final picked = await _picker.pickImage(
-          source: ImageSource.camera,
-          imageQuality: 90,
-        );
-        imagePath = picked?.path;
       }
 
-      if (imagePath == null) return;
+      if (imagePath == null || !mounted) return;
 
       final croppedPath = await Navigator.of(context).push<String>(
         MaterialPageRoute(

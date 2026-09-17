@@ -144,7 +144,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
     if (!mounted) return;
     Navigator.of(context).pop(); // pop loading dialog
 
-    if (selectedPaths.isEmpty) return;
+    if (selectedPaths.isEmpty || !mounted) return;
 
     if (selectedPaths.length == 1) {
       Navigator.of(context).pop(selectedPaths.first);
@@ -582,8 +582,8 @@ class _GalleryScreenState extends State<GalleryScreen> {
   }
 }
 
-/// Helper Widget to load an AssetEntity thumbnail efficiently
-class AssetThumbnail extends StatelessWidget {
+/// Helper Widget to load an AssetEntity thumbnail efficiently with state caching
+class AssetThumbnail extends StatefulWidget {
   const AssetThumbnail({
     super.key,
     required this.asset,
@@ -594,25 +594,59 @@ class AssetThumbnail extends StatelessWidget {
   final BoxFit boxFit;
 
   @override
+  State<AssetThumbnail> createState() => _AssetThumbnailState();
+}
+
+class _AssetThumbnailState extends State<AssetThumbnail> {
+  Uint8List? _bytes;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadBytes();
+  }
+
+  @override
+  void didUpdateWidget(covariant AssetThumbnail oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.asset.id != widget.asset.id) {
+      _loadBytes();
+    }
+  }
+
+  Future<void> _loadBytes() async {
+    final bytes = await widget.asset.thumbnailDataWithSize(const ThumbnailSize.square(300));
+    if (mounted) {
+      setState(() {
+        _bytes = bytes;
+      });
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return FutureBuilder<Uint8List?>(
-      // Request thumbnail with a fixed size to avoid out-of-memory errors
-      future: asset.thumbnailDataWithSize(const ThumbnailSize.square(300)),
-      builder: (_, snapshot) {
-        final bytes = snapshot.data;
-        if (bytes == null) {
-          return Container(
-            color: Colors.grey.shade200,
-            child: const Center(
-              child: Icon(Icons.image, color: Colors.grey),
+    if (_bytes == null) {
+      return Container(
+        color: Colors.grey.shade200,
+        child: const Center(
+          child: SizedBox(
+            width: 18,
+            height: 18,
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+              color: Color(0xFF1B4332),
             ),
-          );
-        }
-        return Image.memory(
-          bytes,
-          fit: boxFit,
-        );
-      },
+          ),
+        ),
+      );
+    }
+    return Image.memory(
+      _bytes!,
+      fit: widget.boxFit,
+      errorBuilder: (_, __, ___) => Container(
+        color: Colors.grey.shade200,
+        child: const Icon(Icons.broken_image, color: Colors.grey),
+      ),
     );
   }
 }
