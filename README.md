@@ -49,8 +49,6 @@ assets/
    flutter run
    ```
 
-   Gunakan `assets/images/satay.jpg` untuk uji cepat lewat opsi "Galeri".
-
 ## Tentang model ML
 
 Model diunduh dari Kaggle Models:
