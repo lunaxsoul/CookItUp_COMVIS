@@ -37,10 +37,20 @@ class _FoodScanScreenState extends State<FoodScanScreen> {
   bool _isClassifying = false;
   String? _errorMessage;
 
-  Future<String?> _openGallery() {
-    return Navigator.of(context).push<String>(
+  Future<String?> _openGalleryAndCrop() async {
+    final imagePath = await showModalBottomSheet<String>(
+      context: context,
+      isScrollControlled: true,
+      useSafeArea: true,
+      backgroundColor: Colors.transparent,
+      builder: (_) => const GalleryScreen(allowMultiple: false),
+    );
+    
+    if (imagePath == null || !mounted) return null;
+
+    return await Navigator.of(context).push<String>(
       MaterialPageRoute(
-        builder: (_) => const GalleryScreen(),
+        builder: (_) => PhotoCropScreen(imagePath: imagePath),
         fullscreenDialog: true,
       ),
     );
@@ -53,11 +63,11 @@ class _FoodScanScreenState extends State<FoodScanScreen> {
       String? imagePath;
 
       if (source == ImageSource.gallery) {
-        imagePath = await _openGallery();
+        imagePath = await _openGalleryAndCrop();
       } else {
         imagePath = await Navigator.of(context).push<String>(
           MaterialPageRoute(
-            builder: (_) => CameraScreen(onPickFromGallery: _openGallery),
+            builder: (_) => CameraScreen(onPickFromGallery: _openGalleryAndCrop),
             fullscreenDialog: true,
           ),
         );
@@ -65,18 +75,8 @@ class _FoodScanScreenState extends State<FoodScanScreen> {
 
       if (imagePath == null || !mounted) return;
 
-      final croppedPath = await Navigator.of(context).push<String>(
-        MaterialPageRoute(
-          builder: (_) => PhotoCropScreen(imagePath: imagePath!),
-          fullscreenDialog: true,
-        ),
-      );
-
-      if (croppedPath == null) return;
-      if (!mounted) return;
-
       setState(() {
-        _selectedImage = File(croppedPath);
+        _selectedImage = File(imagePath!);
       });
     } catch (e) {
       if (!mounted) return;

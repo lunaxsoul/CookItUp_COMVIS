@@ -99,23 +99,33 @@ class _GalleryScreenState extends State<GalleryScreen> {
     setState(() {
       _assets = entities;
       _isLoading = false;
-      // Auto-select first photo on initial load if none selected
-      if (_assets.isNotEmpty && _selectedAssets.isEmpty) {
-        _selectedAssets.add(_assets.first);
-      }
     });
   }
 
-  void _toggleSelection(AssetEntity asset) {
+  Future<void> _toggleSelection(AssetEntity asset) async {
+    if (!widget.allowMultiple) {
+      // Immediately pick and return the photo
+      showDialog(
+        context: context, 
+        barrierDismissible: false,
+        builder: (_) => const Center(child: CircularProgressIndicator(color: _forestGreen)),
+      );
+      
+      final File? file = await asset.file;
+      
+      if (!mounted) return;
+      Navigator.of(context).pop(); // dismiss loading dialog
+      
+      if (file != null) {
+        Navigator.of(context).pop(file.path);
+      }
+      return;
+    }
+
     setState(() {
-      if (widget.allowMultiple) {
-        if (_selectedAssets.contains(asset)) {
-          _selectedAssets.remove(asset);
-        } else {
-          _selectedAssets.add(asset);
-        }
+      if (_selectedAssets.contains(asset)) {
+        _selectedAssets.remove(asset);
       } else {
-        _selectedAssets.clear();
         _selectedAssets.add(asset);
       }
     });
@@ -155,20 +165,21 @@ class _GalleryScreenState extends State<GalleryScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: _ivoryBackground,
-      body: SafeArea(
-        child: Column(
+    return ClipRRect(
+      borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+      child: Scaffold(
+        backgroundColor: _ivoryBackground,
+        body: Column(
           children: [
             const SizedBox(height: 10),
             // Drag Handle Bar at Top
             Center(
               child: Container(
                 width: 40,
-                height: 4,
+                height: 5,
                 decoration: BoxDecoration(
                   color: Colors.grey.shade300,
-                  borderRadius: BorderRadius.circular(2),
+                  borderRadius: BorderRadius.circular(3),
                 ),
               ),
             ),
@@ -194,29 +205,6 @@ class _GalleryScreenState extends State<GalleryScreen> {
                     ),
                   ),
                   const Spacer(),
-                  // Select All / Clear Button if photos exist
-                  if (_assets.isNotEmpty && _selectedTabIndex == 0)
-                    TextButton(
-                      onPressed: () {
-                        setState(() {
-                          if (_selectedAssets.length == _assets.length) {
-                            _selectedAssets.clear();
-                          } else {
-                            _selectedAssets.addAll(_assets);
-                          }
-                        });
-                      },
-                      child: Text(
-                        _selectedAssets.length == _assets.length
-                            ? 'Deselect All'
-                            : 'Select All',
-                        style: const TextStyle(
-                          color: _forestGreen,
-                          fontWeight: FontWeight.w600,
-                          fontSize: 13,
-                        ),
-                      ),
-                    ),
                 ],
               ),
             ),

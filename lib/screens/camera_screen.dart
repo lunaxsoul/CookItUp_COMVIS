@@ -1,5 +1,8 @@
+import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
+import 'package:image/image.dart' as img;
 
 class CameraScreen extends StatefulWidget {
   final Future<String?> Function()? onPickFromGallery;
@@ -10,10 +13,12 @@ class CameraScreen extends StatefulWidget {
   State<CameraScreen> createState() => _CameraScreenState();
 }
 
-class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMixin, WidgetsBindingObserver {
+class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver {
   CameraController? _cameraController;
-  late AnimationController _scanAnimationController;
   List<CameraDescription>? _cameras;
+  double _currentZoomLevel = 1.0;
+  double _minZoomLevel = 1.0;
+  double _maxZoomLevel = 1.0;
   bool _isCameraInitialized = false;
   bool _isFlashOn = false;
 
@@ -22,11 +27,6 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     _initializeCamera();
-    
-    _scanAnimationController = AnimationController(
-      vsync: this,
-      duration: const Duration(seconds: 2),
-    )..repeat(reverse: true);
   }
 
   Future<void> _initializeCamera() async {
@@ -40,6 +40,10 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
         );
 
         await _cameraController!.initialize();
+        _minZoomLevel = await _cameraController!.getMinZoomLevel();
+        _maxZoomLevel = await _cameraController!.getMaxZoomLevel();
+        _currentZoomLevel = _minZoomLevel;
+
         if (mounted) {
           setState(() {
             _isCameraInitialized = true;
@@ -53,7 +57,6 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
 
   @override
   void dispose() {
-    _scanAnimationController.dispose();
     WidgetsBinding.instance.removeObserver(this);
     _cameraController?.dispose();
     super.dispose();
@@ -70,6 +73,22 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
       cameraController.dispose();
     } else if (state == AppLifecycleState.resumed) {
       _initializeCamera();
+    }
+  }
+
+  void _toggleZoom() async {
+    if (_cameraController == null || !_cameraController!.value.isInitialized) return;
+    try {
+      // Toggle between 1x and 2x (or max if max is less than 2)
+      double nextZoom = _currentZoomLevel == _minZoomLevel 
+          ? (_maxZoomLevel >= 2.0 ? 2.0 : _maxZoomLevel) 
+          : _minZoomLevel;
+      await _cameraController!.setZoomLevel(nextZoom);
+      setState(() {
+        _currentZoomLevel = nextZoom;
+      });
+    } catch (e) {
+      debugPrint("Error toggling zoom: $e");
     }
   }
 
@@ -90,14 +109,96 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
     if (_cameraController!.value.isTakingPicture) return;
 
     try {
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (_) => const Center(child: CircularProgressIndicator(color: Color(0xFF4A7C59))),
+      );
+
       XFile picture = await _cameraController!.takePicture();
+      
+      final croppedPath = await _cropToFrame(picture.path);
+
       if (mounted) {
-        Navigator.pop(context, picture.path);
+        Navigator.pop(context); // pop the loading dialog
+        Navigator.pop(context, croppedPath); // pop the camera screen with image
       }
-      debugPrint("Picture saved at: ${picture.path}");
+      debugPrint("Picture saved and cropped at: $croppedPath");
     } catch (e) {
+      if (mounted) Navigator.pop(context); // close dialog on error
       debugPrint("Error taking picture: $e");
     }
+  }
+
+  Future<String> _cropToFrame(String imagePath) async {
+    final size = MediaQuery.of(context).size;
+    final double rectSize = size.width * 0.75;
+    final double left = (size.width - rectSize) / 2;
+    final double top = (size.height - rectSize) / 2 - 40;
+
+    final Map<String, dynamic> cropParams = {
+      'path': imagePath,
+      'screenWidth': size.width,
+      'screenHeight': size.height,
+      'rectLeft': left,
+      'rectTop': top,
+      'rectSize': rectSize,
+    };
+
+    // Run cropping in background isolate to prevent UI freeze
+    return await compute(_processCrop, cropParams);
+  }
+
+  static String _processCrop(Map<String, dynamic> params) {
+    final String path = params['path'];
+    final double screenWidth = params['screenWidth'];
+    final double screenHeight = params['screenHeight'];
+    final double rectLeft = params['rectLeft'];
+    final double rectTop = params['rectTop'];
+    final double rectSize = params['rectSize'];
+
+    final bytes = File(path).readAsBytesSync();
+    img.Image? originalImage = img.decodeImage(bytes);
+    if (originalImage == null) return path;
+
+    // Ensure the image is oriented correctly before math
+    originalImage = img.bakeOrientation(originalImage);
+
+    final int imgWidth = originalImage.width;
+    final int imgHeight = originalImage.height;
+
+    // Calculate BoxFit.cover math to find exact pixel match
+    double scaleX = screenWidth / imgWidth;
+    double scaleY = screenHeight / imgHeight;
+    double scale = scaleX > scaleY ? scaleX : scaleY; // BoxFit.cover uses max scale
+
+    double displayedImgWidth = imgWidth * scale;
+    double displayedImgHeight = imgHeight * scale;
+
+    double offsetX = (displayedImgWidth - screenWidth) / 2;
+    double offsetY = (displayedImgHeight - screenHeight) / 2;
+
+    int cropLeft = ((rectLeft + offsetX) / scale).round();
+    int cropTop = ((rectTop + offsetY) / scale).round();
+    int cropSize = (rectSize / scale).round();
+
+    // Prevent out of bounds
+    cropLeft = cropLeft.clamp(0, imgWidth - cropSize);
+    cropTop = cropTop.clamp(0, imgHeight - cropSize);
+
+    img.Image cropped = img.copyCrop(
+      originalImage,
+      x: cropLeft,
+      y: cropTop,
+      width: cropSize,
+      height: cropSize,
+    );
+
+    final croppedBytes = img.encodeJpg(cropped, quality: 90);
+    final croppedFile = File('${Directory.systemTemp.path}/food_scan_${DateTime.now().millisecondsSinceEpoch}.jpg');
+    croppedFile.writeAsBytesSync(croppedBytes);
+
+    return croppedFile.path;
   }
 
   @override
@@ -115,23 +216,22 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
         children: [
           // 1. Camera Preview (Full Screen)
           Positioned.fill(
-            child: AspectRatio(
-              aspectRatio: _cameraController!.value.aspectRatio,
-              child: CameraPreview(_cameraController!),
+            child: FittedBox(
+              fit: BoxFit.cover,
+              child: SizedBox(
+                width: 100,
+                // In portrait mode, the camera's aspect ratio is inverted (e.g. 9:16 instead of 16:9).
+                // So the height should be width * aspectRatio.
+                height: 100 * _cameraController!.value.aspectRatio,
+                child: CameraPreview(_cameraController!),
+              ),
             ),
           ),
 
           // 2. Dark Overlay & Target Frame
           Positioned.fill(
-            child: AnimatedBuilder(
-              animation: _scanAnimationController,
-              builder: (context, child) {
-                return CustomPaint(
-                  painter: ScannerOverlayPainter(
-                    animationValue: _scanAnimationController.value,
-                  ),
-                );
-              },
+            child: CustomPaint(
+              painter: ScannerOverlayPainter(),
             ),
           ),
 
@@ -238,18 +338,26 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
                         ),
                       ),
 
-                      // Flash Toggle (Bottom)
+                      // Zoom Toggle (Bottom)
                       GestureDetector(
-                        onTap: _toggleFlash,
+                        onTap: _toggleZoom,
                         child: Column(
                           children: [
-                            Icon(
-                              _isFlashOn ? Icons.bolt : Icons.bolt_outlined,
-                              color: Colors.white,
-                              size: 28,
+                            Container(
+                              width: 32,
+                              height: 32,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.white, width: 2),
+                              ),
+                              alignment: Alignment.center,
+                              child: Text(
+                                _currentZoomLevel == _minZoomLevel ? "1x" : "2x",
+                                style: const TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.bold),
+                              ),
                             ),
-                            const SizedBox(height: 8),
-                            const Text("Flash", style: TextStyle(color: Colors.white, fontSize: 12)),
+                            const SizedBox(height: 4),
+                            const Text("Zoom", style: TextStyle(color: Colors.white, fontSize: 12)),
                           ],
                         ),
                       ),
@@ -267,10 +375,6 @@ class _CameraScreenState extends State<CameraScreen> with TickerProviderStateMix
 
 // Custom Painter for the target corners
 class ScannerOverlayPainter extends CustomPainter {
-  final double animationValue;
-
-  ScannerOverlayPainter({this.animationValue = 0.0});
-
   @override
   void paint(Canvas canvas, Size size) {
     // Calculate center square
@@ -286,41 +390,6 @@ class ScannerOverlayPainter extends CustomPainter {
     final combinedPath = Path.combine(PathOperation.difference, fullPath, scanPath);
     
     canvas.drawPath(combinedPath, bgPaint);
-
-    // Draw the scanning bar with slight opacity
-    final double scanLineY = scanRect.top + (scanRect.height * animationValue);
-    
-    // The gradient fade above the scanning line
-    final double gradientHeight = 40.0;
-    final Rect gradientRect = Rect.fromLTRB(
-      scanRect.left, 
-      (scanLineY - gradientHeight).clamp(scanRect.top, scanRect.bottom), 
-      scanRect.right, 
-      scanLineY
-    );
-
-    if (gradientRect.height > 0) {
-      final gradientPaint = Paint()
-        ..shader = LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [
-            Colors.white.withOpacity(0.0),
-            Colors.white.withOpacity(0.3),
-          ],
-        ).createShader(gradientRect);
-      canvas.drawRect(gradientRect, gradientPaint);
-    }
-
-    // The solid line itself
-    final linePaint = Paint()
-      ..color = Colors.white.withOpacity(0.7)
-      ..strokeWidth = 2.0;
-    canvas.drawLine(
-      Offset(scanRect.left, scanLineY),
-      Offset(scanRect.right, scanLineY),
-      linePaint,
-    );
 
     // Draw the 4 corner brackets
     final cornerPaint = Paint()
@@ -375,7 +444,5 @@ class ScannerOverlayPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant ScannerOverlayPainter oldDelegate) {
-    return oldDelegate.animationValue != animationValue;
-  }
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
