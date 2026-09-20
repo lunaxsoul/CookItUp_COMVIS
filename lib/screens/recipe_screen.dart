@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 import '../models/food_prediction.dart';
 import '../models/meal.dart';
-import '../services/mealdb_service.dart';
+import '../services/local_recipe_service.dart';
 
 class RecipeScreen extends StatefulWidget {
   const RecipeScreen({
@@ -20,7 +20,7 @@ class RecipeScreen extends StatefulWidget {
 }
 
 class _RecipeScreenState extends State<RecipeScreen> {
-  final _mealDbService = MealDbService();
+  final _localRecipeService = LocalRecipeService();
 
   late final Future<Meal?> _mealFuture;
   late final Future<List<Meal>> _moreIdeasFuture;
@@ -29,7 +29,7 @@ class _RecipeScreenState extends State<RecipeScreen> {
   void initState() {
     super.initState();
 
-    _mealFuture = _mealDbService.searchByName(widget.prediction.label);
+    _mealFuture = _localRecipeService.searchByName(widget.prediction.label);
     _moreIdeasFuture = _loadMoreIdeas();
   }
 
@@ -448,50 +448,13 @@ class _RecipeScreenState extends State<RecipeScreen> {
 
   Future<List<Meal>> _loadMoreIdeas() async {
     final meal = await _mealFuture;
-
     if (meal == null) return [];
-
     final category = meal.category;
-
-    if (category == null || category.trim().isEmpty) {
+    if (category == null || category.trim().isEmpty) { 
       return [];
+      }
+      return _localRecipeService.findByCategory( category, excludeName: _recipeTitle(meal), ); 
     }
-
-    final uri = Uri.parse(
-      'https://www.themealdb.com/api/json/v1/1/filter.php',
-    ).replace(
-      queryParameters: {'c': category},
-    );
-
-    final response = await http.get(uri);
-
-    if (response.statusCode != 200) {
-      throw Exception('MealDB error: ${response.statusCode}');
-    }
-
-    final body = jsonDecode(response.body) as Map<String, dynamic>;
-    final rawMeals = body['meals'] as List?;
-
-    if (rawMeals == null) return [];
-
-    return rawMeals
-        .whereType<Map<String, dynamic>>()
-        .map(
-          (item) => Meal(
-        id: item['idMeal']?.toString() ?? '',
-        name: item['strMeal']?.toString() ?? '-',
-        thumbnailUrl: item['strMealThumb']?.toString() ?? '',
-        instructions: '',
-        ingredients: const [],
-      ),
-    )
-        .where(
-          (item) =>
-      item.name.toLowerCase() !=
-          _recipeTitle(meal).toLowerCase(),
-    )
-        .toList();
-  }
 
   Widget _buildError(String message) {
     final isNoRecipe = message.contains('Belum ada resep') ||

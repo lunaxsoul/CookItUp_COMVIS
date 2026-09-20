@@ -39,9 +39,9 @@ flutter:
     - assets/models/labels.txt
     - assets/images/
     - assets/icon/
+    - assets/data/local_recipes.json
 
 flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
-
