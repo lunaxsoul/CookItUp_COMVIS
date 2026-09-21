@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import '../services/classifier_service.dart';
+import 'nutrition_screen.dart';
 import 'scan_screen.dart';
+import 'profile_screen.dart';
+import 'history_screen.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key, required this.classifier});
+
+class HomeScreen extends StatefulWidget {  const HomeScreen({super.key, required this.classifier});
 
   final ClassifierService classifier;
 
@@ -135,7 +138,13 @@ class _HomeScreenState extends State<HomeScreen> {
       color: Colors.transparent,
       child: InkWell(
         borderRadius: BorderRadius.circular(24),
-        onTap: () {},
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (_) => const ProfileScreen(),
+            ),
+          );
+        },
         child: Container(
           width: 48,
           height: 48,
@@ -353,6 +362,33 @@ class _HomeScreenState extends State<HomeScreen> {
           return Expanded(
             child: GestureDetector(
               onTap: () {
+                if (index == 1) {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const HistoryScreen(),
+                    ),
+                  );
+                  return;
+                }
+
+                if (index == 2) {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const NutritionScreen(),
+                    ),
+                  );
+                  return;
+                }
+
+                if (index == 3) {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const ProfileScreen(),
+                    ),
+                  );
+                  return;
+                }
+
                 setState(() => _selectedNav = index);
               },
               behavior: HitTestBehavior.opaque,
