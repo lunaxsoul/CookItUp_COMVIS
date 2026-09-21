@@ -50,8 +50,6 @@ class _AnalyzingScreenState extends State<AnalyzingScreen>
 
   Future<void> _runAnalysis() async {
     try {
-      // Keep this screen visible briefly so the analyzing state is noticeable
-      // even when the model finishes very quickly.
       final result = await Future.wait<dynamic>([
         widget.analyze(),
         Future<void>.delayed(const Duration(milliseconds: 1800)),
