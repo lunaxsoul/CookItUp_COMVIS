@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/food_prediction.dart';
 import '../models/meal.dart';
-import '../services/mealdb_service.dart';
+import '../services/local_recipe_service.dart';
 
 class NutritionDetailScreen extends StatefulWidget {
   const NutritionDetailScreen({
@@ -17,7 +17,7 @@ class NutritionDetailScreen extends StatefulWidget {
 }
 
 class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
-  final _mealDbService = MealDbService();
+  final _localRecipeService = LocalRecipeService();
 
   late final Future<Meal?> _mealFuture;
   int _selectedTab = 0;
@@ -27,7 +27,7 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
     super.initState();
 
     _mealFuture = widget.prediction.isRecognized
-        ? _mealDbService.searchByName(widget.prediction.label)
+        ? _localRecipeService.searchByName(widget.prediction.label)
         : Future.value(null);
   }
 
@@ -233,8 +233,27 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
   }
 
   Widget _buildNutritionTab() {
-    return Column(
+    return FutureBuilder<Meal?>(
       key: const ValueKey('nutrition'),
+      future: _mealFuture,
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Padding(
+            padding: EdgeInsets.only(top: 35),
+            child: Center(
+              child: CircularProgressIndicator(color: Color(0xFF285F53)),
+            ),
+          );
+        }
+        return _nutritionContent(snapshot.data?.nutrition);
+      },
+    );
+  }
+
+  Widget _nutritionContent(Nutrition? n) {
+    String g(double? v) => v == null ? '-' : '${v.round()}g';
+    String mg(double? v) => v == null ? '-' : '${v.round()}mg';
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         GridView.count(
@@ -248,25 +267,25 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
             _nutritionCard(
               icon: Icons.local_fire_department_outlined,
               iconColor: const Color(0xFFD96C63),
-              value: '420',
+              value: n == null ? '-' : '${n.kcal}',
               label: 'Calories',
             ),
             _nutritionCard(
               icon: Icons.spa_outlined,
               iconColor: const Color(0xFF285F53),
-              value: '35g',
+              value: g(n?.protein),
               label: 'Protein',
             ),
             _nutritionCard(
               icon: Icons.water_drop_outlined,
               iconColor: const Color(0xFF637A87),
-              value: '42g',
+              value: g(n?.carbs),
               label: 'Carbs',
             ),
             _nutritionCard(
               icon: Icons.local_fire_department_outlined,
               iconColor: const Color(0xFFE3A05C),
-              value: '14g',
+              value: g(n?.fat),
               label: 'Fat',
             ),
           ],
@@ -281,9 +300,22 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
           ),
         ),
         const SizedBox(height: 13),
-        _detailRow('Fiber', '7g'),
-        _detailRow('Sugar', '6g'),
-        _detailRow('Sodium', '320mg'),
+        _detailRow('Fiber', g(n?.fiber)),
+        _detailRow('Sugar', g(n?.sugar)),
+        _detailRow('Sodium', mg(n?.sodium)),
+        _detailRow('Cholesterol', mg(n?.cholesterol)),
+        if (n != null)
+          Padding(
+            padding: const EdgeInsets.only(top: 14),
+            child: Text(
+              'Estimated values per ${n.serving}. Actual nutrition varies by portion and recipe.',
+              style: const TextStyle(
+                fontSize: 12,
+                height: 1.4,
+                color: Color(0xFF788780),
+              ),
+            ),
+          ),
       ],
     );
   }
@@ -475,9 +507,9 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
         .where((word) => word.isNotEmpty)
         .map(
           (word) => word.length == 1
-              ? word.toUpperCase()
-              : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
-        )
+          ? word.toUpperCase()
+          : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
+    )
         .join(' ');
   }
 }
