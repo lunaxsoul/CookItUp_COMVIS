@@ -1,7 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 
 import '../models/food_prediction.dart';
 import '../models/meal.dart';
@@ -320,7 +317,7 @@ class _RecipeScreenState extends State<RecipeScreen> {
         ),
         _metaPill(
           Icons.local_fire_department_outlined,
-          '420 kcal',
+          meal.nutrition == null ? '- kcal' : '~${meal.nutrition!.kcal} kcal',
         ),
       ],
     );
@@ -420,7 +417,7 @@ class _RecipeScreenState extends State<RecipeScreen> {
                     ),
                     const SizedBox(height: 7),
                     Text(
-                      '${_estimatedTime(meal)}  ·  Easy  ·  380 kcal',
+                      '${_estimatedTime(meal)}  ·  Easy  ·  ${meal.nutrition == null ? '-' : '~${meal.nutrition!.kcal}'} kcal',
                       style: const TextStyle(
                         fontSize: 11,
                         color: Color(0xFF71827C),
@@ -450,11 +447,11 @@ class _RecipeScreenState extends State<RecipeScreen> {
     final meal = await _mealFuture;
     if (meal == null) return [];
     final category = meal.category;
-    if (category == null || category.trim().isEmpty) { 
+    if (category == null || category.trim().isEmpty) {
       return [];
-      }
-      return _localRecipeService.findByCategory( category, excludeName: _recipeTitle(meal), ); 
     }
+    return _localRecipeService.findByCategory( category, excludeName: _recipeTitle(meal), );
+  }
 
   Widget _buildError(String message) {
     final isNoRecipe = message.contains('Belum ada resep') ||
