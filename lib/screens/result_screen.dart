@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/food_prediction.dart';
 import '../models/meal.dart';
-import '../services/mealdb_service.dart';
+import '../services/local_recipe_service.dart';
 import 'recipe_screen.dart';
 import 'nutrition_detail_screen.dart';
 
@@ -16,14 +16,14 @@ class ResultScreen extends StatefulWidget {
 }
 
 class _ResultScreenState extends State<ResultScreen> {
-  final _mealDbService = MealDbService();
+  final _localRecipeService = LocalRecipeService();
   late final Future<Meal?> _mealFuture;
 
   @override
   void initState() {
     super.initState();
     _mealFuture = widget.prediction.isRecognized
-        ? _mealDbService.searchByName(widget.prediction.label)
+        ? _localRecipeService.searchByName(widget.prediction.label)
         : Future.value(null);
   }
 
@@ -45,7 +45,12 @@ class _ResultScreenState extends State<ResultScreen> {
                   const SizedBox(height: 24),
                   _buildFoodTitle(prediction),
                   const SizedBox(height: 22),
-                  _buildNutritionSection(),
+                  FutureBuilder<Meal?>(
+                    future: _mealFuture,
+                    builder: (context, snapshot) {
+                      return _buildNutritionSection(snapshot.data?.nutrition);
+                    },
+                  ),
                   const SizedBox(height: 22),
                   _buildConfidenceCard(prediction),
                   const SizedBox(height: 24),
@@ -55,14 +60,14 @@ class _ResultScreenState extends State<ResultScreen> {
                     child: ElevatedButton(
                       onPressed: prediction.isRecognized
                           ? () {
-                              Navigator.of(context).push(
-                                MaterialPageRoute(
-                                  builder: (_) => RecipeScreen(
-                                    prediction: prediction,
-                                  ),
-                                ),
-                              );
-                            }
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => RecipeScreen(
+                              prediction: prediction,
+                            ),
+                          ),
+                        );
+                      }
                           : null,
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xFF285F53),
@@ -219,9 +224,9 @@ class _ResultScreenState extends State<ResultScreen> {
     );
   }
 
-  Widget _buildNutritionSection() {
-    // FoodPrediction is still dummy
-    // Find and change with backend later
+  Widget _buildNutritionSection(Nutrition? n) {
+    // Values are estimated per typical serving (from local_recipes.json).
+    String g(double? v) => v == null ? '-' : '${v.round()}g';
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -268,7 +273,7 @@ class _ResultScreenState extends State<ResultScreen> {
             Expanded(
               child: _nutritionCard(
                 icon: Icons.local_fire_department_outlined,
-                value: '420',
+                value: n == null ? '-' : '${n.kcal}',
                 unit: 'kcal',
                 label: 'Calories',
               ),
@@ -277,7 +282,7 @@ class _ResultScreenState extends State<ResultScreen> {
             Expanded(
               child: _nutritionCard(
                 icon: Icons.spa_outlined,
-                value: '35g',
+                value: g(n?.protein),
                 unit: '',
                 label: 'Protein',
               ),
@@ -286,7 +291,7 @@ class _ResultScreenState extends State<ResultScreen> {
             Expanded(
               child: _nutritionCard(
                 icon: Icons.water_drop_outlined,
-                value: '42g',
+                value: g(n?.carbs),
                 unit: '',
                 label: 'Carbs',
               ),
@@ -295,7 +300,7 @@ class _ResultScreenState extends State<ResultScreen> {
             Expanded(
               child: _nutritionCard(
                 icon: Icons.set_meal_outlined,
-                value: '14g',
+                value: g(n?.fat),
                 unit: '',
                 label: 'Fat',
               ),
@@ -437,9 +442,9 @@ class _ResultScreenState extends State<ResultScreen> {
         .where((word) => word.isNotEmpty)
         .map(
           (word) => word.length == 1
-              ? word.toUpperCase()
-              : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
-        )
+          ? word.toUpperCase()
+          : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
+    )
         .join(' ');
   }
 }
