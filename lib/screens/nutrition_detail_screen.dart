@@ -20,6 +20,7 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
   final _localRecipeService = LocalRecipeService();
 
   late final Future<Meal?> _mealFuture;
+  late final Future<Nutrition?> _nutritionFuture;
   int _selectedTab = 0;
 
   @override
@@ -29,6 +30,12 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
     _mealFuture = widget.prediction.isRecognized
         ? _localRecipeService.searchByName(widget.prediction.label)
         : Future.value(null);
+    _nutritionFuture = _mealFuture.then(
+      (meal) => _localRecipeService.nutritionForLabel(
+        widget.prediction.label,
+        meal: meal,
+      ),
+    );
   }
 
   @override
@@ -233,9 +240,9 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
   }
 
   Widget _buildNutritionTab() {
-    return FutureBuilder<Meal?>(
+    return FutureBuilder<Nutrition?>(
       key: const ValueKey('nutrition'),
-      future: _mealFuture,
+      future: _nutritionFuture,
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Padding(
@@ -245,7 +252,7 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
             ),
           );
         }
-        return _nutritionContent(snapshot.data?.nutrition);
+        return _nutritionContent(snapshot.data);
       },
     );
   }
@@ -507,9 +514,9 @@ class _NutritionDetailScreenState extends State<NutritionDetailScreen> {
         .where((word) => word.isNotEmpty)
         .map(
           (word) => word.length == 1
-          ? word.toUpperCase()
-          : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
-    )
+              ? word.toUpperCase()
+              : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
+        )
         .join(' ');
   }
 }

@@ -78,6 +78,43 @@ class LocalRecipeService {
     return null;
   }
 
+  static bool _hasWord(String text, String term) {
+    if (term.isEmpty) return false;
+    return RegExp('(^|[^a-z0-9])${RegExp.escape(term)}(\$|[^a-z0-9])')
+        .hasMatch(text);
+  }
+
+  // Label -> estimated nutrition, for classifier labels that have no
+  // recipe in local_recipes.json (generated from the label name only).
+  static Map<String, dynamic>? _labelNutritionCache;
+
+  /// Best available nutrition for a scan: the matched recipe's values if
+  /// there is one, otherwise the label-level estimate, otherwise null.
+  Future<Nutrition?> nutritionForLabel(String label, {Meal? meal}) async {
+    if (meal?.nutrition != null) return meal!.nutrition;
+    try {
+      _labelNutritionCache ??= jsonDecode(
+        await rootBundle.loadString('assets/data/label_nutrition.json'),
+      ) as Map<String, dynamic>;
+    } catch (_) {
+      return null;
+    }
+    final raw = _labelNutritionCache![label.trim().toLowerCase()];
+    if (raw is! Map) return null;
+    double d(String k) => (raw[k] as num?)?.toDouble() ?? 0;
+    return Nutrition(
+      kcal: (raw['kcal'] as num?)?.toInt() ?? 0,
+      protein: d('protein'),
+      carbs: d('carbs'),
+      fat: d('fat'),
+      fiber: d('fiber'),
+      sugar: d('sugar'),
+      sodium: d('sodium'),
+      cholesterol: d('cholesterol'),
+      serving: raw['serving']?.toString() ?? '1 porsi',
+    );
+  }
+
   Future<Meal?> _search(List<Map<String, dynamic>> all, String query) async {
     for (final item in all) {
       final title = (item['strMeal'] as String? ?? '').toLowerCase();
@@ -88,7 +125,9 @@ class LocalRecipeService {
     int bestLength = 1 << 30;
     for (final item in all) {
       final title = (item['strMeal'] as String? ?? '').toLowerCase();
-      if (title.contains(query) || query.contains(title)) {
+      // Whole-word match, so "bing" doesn't match "kambing" and "anju"
+      // doesn't match "cianjur".
+      if (_hasWord(title, query) || _hasWord(query, title)) {
         if (title.length < bestLength) {
           bestLength = title.length;
           bestMatch = item;

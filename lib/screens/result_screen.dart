@@ -19,6 +19,7 @@ class ResultScreen extends StatefulWidget {
 class _ResultScreenState extends State<ResultScreen> {
   final _localRecipeService = LocalRecipeService();
   late final Future<Meal?> _mealFuture;
+  late final Future<Nutrition?> _nutritionFuture;
 
   @override
   void initState() {
@@ -26,6 +27,12 @@ class _ResultScreenState extends State<ResultScreen> {
     _mealFuture = widget.prediction.isRecognized
         ? _localRecipeService.searchByName(widget.prediction.label)
         : Future.value(null);
+    _nutritionFuture = _mealFuture.then(
+      (meal) => _localRecipeService.nutritionForLabel(
+        widget.prediction.label,
+        meal: meal,
+      ),
+    );
     _saveScan();
   }
 
@@ -34,10 +41,12 @@ class _ResultScreenState extends State<ResultScreen> {
     if (!widget.prediction.isRecognized) return;
     try {
       final meal = await _mealFuture;
+      final nutrition = await _nutritionFuture;
       await ScanHistoryService().addScan(
         label: widget.prediction.label,
         confidence: widget.prediction.confidence,
         meal: meal,
+        nutrition: nutrition,
       );
     } catch (_) {}
   }
@@ -60,10 +69,10 @@ class _ResultScreenState extends State<ResultScreen> {
                   const SizedBox(height: 24),
                   _buildFoodTitle(prediction),
                   const SizedBox(height: 22),
-                  FutureBuilder<Meal?>(
-                    future: _mealFuture,
+                  FutureBuilder<Nutrition?>(
+                    future: _nutritionFuture,
                     builder: (context, snapshot) {
-                      return _buildNutritionSection(snapshot.data?.nutrition);
+                      return _buildNutritionSection(snapshot.data);
                     },
                   ),
                   const SizedBox(height: 22),
@@ -75,14 +84,14 @@ class _ResultScreenState extends State<ResultScreen> {
                     child: ElevatedButton(
                       onPressed: prediction.isRecognized
                           ? () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (_) => RecipeScreen(
-                              prediction: prediction,
-                            ),
-                          ),
-                        );
-                      }
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) => RecipeScreen(
+                                    prediction: prediction,
+                                  ),
+                                ),
+                              );
+                            }
                           : null,
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xFF285F53),
@@ -457,9 +466,9 @@ class _ResultScreenState extends State<ResultScreen> {
         .where((word) => word.isNotEmpty)
         .map(
           (word) => word.length == 1
-          ? word.toUpperCase()
-          : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
-    )
+              ? word.toUpperCase()
+              : '${word[0].toUpperCase()}${word.substring(1).toLowerCase()}',
+        )
         .join(' ');
   }
 }

@@ -127,6 +127,7 @@ class ScanHistoryService {
     required String label,
     required double confidence,
     Meal? meal,
+    Nutrition? nutrition,
   }) async {
     final prefs = await SharedPreferences.getInstance();
     final all = await getAll();
@@ -137,7 +138,7 @@ class ScanHistoryService {
       mealName: meal?.name ?? label,
       confidence: confidence,
       scannedAt: now,
-      nutrition: meal?.nutrition,
+      nutrition: nutrition ?? meal?.nutrition,
     ));
     await prefs.setString(
       _scansKey,
