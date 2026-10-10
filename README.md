@@ -2,7 +2,8 @@
 
 Aplikasi Flutter untuk mengidentifikasi makanan dari foto menggunakan model
 machine learning on-device (TensorFlow Lite / LiteRT), dilengkapi halaman
-detail hasil prediksi dengan referensi resep dari MealDB API.
+detail hasil prediksi dengan resep dan estimasi nutrisi dari database resep lokal
+(2.164 resep, fokus masakan Indonesia).
 
 ## Fitur
 
@@ -13,8 +14,14 @@ detail hasil prediksi dengan referensi resep dari MealDB API.
   Inferensi berjalan di background isolate (`IsolateInterpreter`) dan proses
   decode/resize gambar berjalan lewat `compute()`, sehingga UI tidak freeze.
 - **Halaman prediksi** — menampilkan foto, nama makanan hasil deteksi,
-  confidence score, serta bahan & langkah masak dari MealDB API
-  (`search.php?s=`) berdasarkan nama makanan hasil inferensi.
+  confidence score, estimasi nutrisi, serta bahan & langkah masak dari
+  database resep lokal (`assets/data/local_recipes.json`) berdasarkan nama
+  makanan hasil inferensi. Tidak butuh internet untuk data resep.
+- **Estimasi nutrisi** — kalori, protein, karbohidrat, lemak, serat, gula,
+  natrium, dan kolesterol per porsi. Nilainya ESTIMASI (berbasis aturan
+  per jenis masakan), bukan data terukur. Lihat `NUTRITION_DATA.md`.
+- **Riwayat scan** — setiap scan disimpan lokal (`shared_preferences`) untuk
+  layar History, Nutrition, dan Profile (total harian, goals, streak).
 
 ## Struktur proyek
 
@@ -23,15 +30,21 @@ lib/
   main.dart                     # entry point + loading model
   models/
     food_prediction.dart        # hasil inferensi (label, confidence, image)
-    meal.dart                   # model data MealDB
+    meal.dart                   # model resep + Nutrition (estimasi per porsi)
   services/
     image_preprocessor.dart     # decode + resize gambar -> buffer uint8 192x192x3
     classifier_service.dart     # load model & jalankan inferensi via isolate
-    mealdb_service.dart         # panggil MealDB search API
+    local_recipe_service.dart   # cari resep & nutrisi dari asset lokal (+ alias label)
+    scan_history_service.dart   # simpan scan, total harian, streak, goals
+    mealdb_service.dart         # (lama, tidak dipakai lagi) MealDB search API
   screens/
     home_screen.dart            # ambil/pilih/crop gambar (Kriteria 1)
     result_screen.dart          # halaman prediksi (Kriteria 3)
+    nutrition_detail_screen.dart # detail nutrisi & bahan
+    recipe_screen.dart          # ide resep & resep lengkap
 assets/
+  data/local_recipes.json       # 2.164 resep + estimasi nutrisi per resep
+  data/label_nutrition.json     # estimasi nutrisi per label (untuk label tanpa resep)
   models/food_classifier.tflite # model TFLite (~20MB)
   models/labels.txt             # 2024 label kelas (index sejajar output model)
   images/satay.jpg              # sampel gambar makanan untuk uji manual
@@ -64,8 +77,16 @@ Model diunduh dari Kaggle Models:
   (1:1) dengan index output model.
 
 Label hasil inferensi sesekali berupa nama masakan yang sangat spesifik/
-regional (mis. "Bazin", "Chaudin") yang mungkin tidak memiliki resep di
-MealDB — pada kasus ini halaman prediksi tetap menampilkan hasil deteksi
-& confidence, hanya bagian referensi resep yang menampilkan pesan "tidak
-ditemukan".
+regional (mis. "Bazin", "Chaudin") yang tidak memiliki resep lokal — pada
+kasus ini halaman prediksi tetap menampilkan hasil deteksi & confidence,
+hanya bagian resep yang menampilkan pesan "tidak ditemukan", dan nutrisi
+ditampilkan "-" bila tidak ada estimasi.
+
+## Data resep & nutrisi
+
+- Resep: dikumpulkan dari Cookpad Indonesia + resep kurasi manual
+  (lihat `RECIPE_DATABASE_MIGRATION.md`).
+- Nutrisi: estimasi per porsi, belum bersumber data resmi. Sebagian kecil
+  label (~16% dari 2.023) punya nutrisi. Versi bersumber (USDA FoodData
+  Central + TKPI) sedang disiapkan untuk paper. Detail di `NUTRITION_DATA.md`.
 
