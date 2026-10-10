@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/food_prediction.dart';
 import '../models/meal.dart';
 import '../services/local_recipe_service.dart';
+import '../services/scan_history_service.dart';
 import 'recipe_screen.dart';
 import 'nutrition_detail_screen.dart';
 
@@ -25,6 +26,20 @@ class _ResultScreenState extends State<ResultScreen> {
     _mealFuture = widget.prediction.isRecognized
         ? _localRecipeService.searchByName(widget.prediction.label)
         : Future.value(null);
+    _saveScan();
+  }
+
+  // Save this scan to history (once per time the screen opens).
+  Future<void> _saveScan() async {
+    if (!widget.prediction.isRecognized) return;
+    try {
+      final meal = await _mealFuture;
+      await ScanHistoryService().addScan(
+        label: widget.prediction.label,
+        confidence: widget.prediction.confidence,
+        meal: meal,
+      );
+    } catch (_) {}
   }
 
   @override
