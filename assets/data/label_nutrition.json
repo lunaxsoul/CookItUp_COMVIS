@@ -1,4 +1,5074 @@
 {
+ "chiffon pie": {
+  "kcal": 296,
+  "protein": 2.7,
+  "carbs": 37.5,
+  "fat": 15.3,
+  "fiber": 1.8,
+  "sugar": 15.9,
+  "sodium": 217.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707993",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "black bottom pie": {
+  "kcal": 296,
+  "protein": 2.7,
+  "carbs": 37.5,
+  "fat": 15.3,
+  "fiber": 1.8,
+  "sugar": 15.9,
+  "sodium": 217.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707993",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "teochew porridge": {
+  "kcal": 39,
+  "protein": 0.8,
+  "carbs": 8.4,
+  "fat": 0.1,
+  "fiber": 0.1,
+  "sugar": 0.0,
+  "sodium": 234.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708418",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "roast beef sandwich": {
+  "kcal": 192,
+  "protein": 14.9,
+  "carbs": 23.8,
+  "fat": 3.8,
+  "fiber": 2.8,
+  "sugar": 2.8,
+  "sodium": 639.0,
+  "cholesterol": 25.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706955",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "breakfast burrito": {
+  "kcal": 277,
+  "protein": 11.1,
+  "carbs": 23.0,
+  "fat": 15.6,
+  "fiber": 1.2,
+  "sugar": 2.6,
+  "sodium": 744.0,
+  "cholesterol": 137.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170787",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "prosciutto di norcia": {
+  "kcal": 195,
+  "protein": 27.8,
+  "carbs": 0.3,
+  "fat": 8.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 2695.0,
+  "cholesterol": 70.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705879",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "garlic butter shrimp": {
+  "kcal": 192,
+  "protein": 15.4,
+  "carbs": 2.3,
+  "fat": 13.0,
+  "fiber": 0.2,
+  "sugar": 0.1,
+  "sodium": 168.0,
+  "cholesterol": 154.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706458",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fricasse": {
+  "kcal": 183,
+  "protein": 14.0,
+  "carbs": 2.5,
+  "fat": 13.1,
+  "fiber": 0.7,
+  "sugar": 1.2,
+  "sodium": 593.0,
+  "cholesterol": 52.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706822",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chapssal-tteok": {
+  "kcal": 279,
+  "protein": 2.5,
+  "carbs": 53.6,
+  "fat": 6.5,
+  "fiber": 0.7,
+  "sugar": 31.1,
+  "sodium": 36.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708345",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried eggplant": {
+  "kcal": 218,
+  "protein": 3.7,
+  "carbs": 22.3,
+  "fat": 12.8,
+  "fiber": 2.0,
+  "sugar": 1.8,
+  "sodium": 315.0,
+  "cholesterol": 11.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710048",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "portuguese seafood rice": {
+  "kcal": 143,
+  "protein": 8.0,
+  "carbs": 16.4,
+  "fat": 4.8,
+  "fiber": 0.7,
+  "sugar": 0.9,
+  "sodium": 609.0,
+  "cholesterol": 25.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706711",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "jókai bean soup": {
+  "kcal": 84,
+  "protein": 5.9,
+  "carbs": 10.0,
+  "fat": 2.4,
+  "fiber": 3.5,
+  "sugar": 0.9,
+  "sodium": 248.0,
+  "cholesterol": 9.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707457",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "octopus": {
+  "kcal": 226,
+  "protein": 13.2,
+  "carbs": 13.4,
+  "fat": 13.0,
+  "fiber": 0.5,
+  "sugar": 0.2,
+  "sodium": 518.0,
+  "cholesterol": 43.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706331",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "gratin dauphinois": {
+  "kcal": 134,
+  "protein": 5.1,
+  "carbs": 11.3,
+  "fat": 7.6,
+  "fiber": 1.8,
+  "sugar": 0.0,
+  "sodium": 433.0,
+  "cholesterol": 23.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170442",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "lasagne": {
+  "kcal": 191,
+  "protein": 10.5,
+  "carbs": 12.4,
+  "fat": 11.1,
+  "fiber": 1.3,
+  "sugar": 2.8,
+  "sodium": 524.0,
+  "cholesterol": 31.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169030",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "meringue": {
+  "kcal": 324,
+  "protein": 7.2,
+  "carbs": 75.3,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 73.1,
+  "sodium": 113.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707297",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "peanut butter and jelly sandwich": {
+  "kcal": 361,
+  "protein": 11.4,
+  "carbs": 45.2,
+  "fat": 16.6,
+  "fiber": 2.8,
+  "sugar": 15.0,
+  "sodium": 368.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707554",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "succotash": {
+  "kcal": 77,
+  "protein": 2.6,
+  "carbs": 17.6,
+  "fat": 0.5,
+  "fiber": 3.0,
+  "sugar": 0.0,
+  "sodium": 245.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "168478",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "miso soup": {
+  "kcal": 24,
+  "protein": 2.2,
+  "carbs": 2.3,
+  "fat": 0.8,
+  "fiber": 0.6,
+  "sugar": 0.8,
+  "sodium": 467.0,
+  "cholesterol": 1.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707455",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tempura": {
+  "kcal": 239,
+  "protein": 3.8,
+  "carbs": 20.4,
+  "fat": 15.8,
+  "fiber": 1.6,
+  "sugar": 1.5,
+  "sodium": 12.0,
+  "cholesterol": 38.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710065",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "mochi": {
+  "kcal": 279,
+  "protein": 2.5,
+  "carbs": 53.6,
+  "fat": 6.5,
+  "fiber": 0.7,
+  "sugar": 31.1,
+  "sodium": 36.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708345",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cheeseburger": {
+  "kcal": 296,
+  "protein": 17.9,
+  "carbs": 18.7,
+  "fat": 16.1,
+  "fiber": 0.6,
+  "sugar": 3.0,
+  "sodium": 438.0,
+  "cholesterol": 54.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706888",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "falafel": {
+  "kcal": 514,
+  "protein": 8.3,
+  "carbs": 29.0,
+  "fat": 41.2,
+  "fiber": 4.8,
+  "sugar": 4.5,
+  "sodium": 499.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707408",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "french toast": {
+  "kcal": 273,
+  "protein": 10.4,
+  "carbs": 32.3,
+  "fat": 11.4,
+  "fiber": 1.2,
+  "sugar": 10.1,
+  "sodium": 302.0,
+  "cholesterol": 177.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708331",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tripe": {
+  "kcal": 89,
+  "protein": 12.6,
+  "carbs": 0.0,
+  "fat": 3.9,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 425.0,
+  "cholesterol": 127.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706162",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "salami": {
+  "kcal": 378,
+  "protein": 21.1,
+  "carbs": 0.7,
+  "fat": 31.6,
+  "fiber": 0.0,
+  "sugar": 0.3,
+  "sodium": 1756.0,
+  "cholesterol": 108.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706195",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "kimchi": {
+  "kcal": 15,
+  "protein": 1.1,
+  "carbs": 2.4,
+  "fat": 0.5,
+  "fiber": 1.6,
+  "sugar": 1.1,
+  "sodium": 498.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710077",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pigs in a blanket": {
+  "kcal": 310,
+  "protein": 11.4,
+  "carbs": 19.2,
+  "fat": 20.9,
+  "fiber": 0.7,
+  "sugar": 2.7,
+  "sodium": 708.0,
+  "cholesterol": 40.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707045",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "spanakopita": {
+  "kcal": 212,
+  "protein": 8.3,
+  "carbs": 10.3,
+  "fat": 15.2,
+  "fiber": 1.0,
+  "sugar": 0.6,
+  "sodium": 392.0,
+  "cholesterol": 79.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708729",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "jambalaya": {
+  "kcal": 161,
+  "protein": 13.8,
+  "carbs": 8.7,
+  "fat": 8.0,
+  "fiber": 0.7,
+  "sugar": 0.9,
+  "sodium": 379.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706727",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "club sandwich": {
+  "kcal": 220,
+  "protein": 16.0,
+  "carbs": 21.4,
+  "fat": 7.7,
+  "fiber": 2.4,
+  "sugar": 2.6,
+  "sodium": 765.0,
+  "cholesterol": 31.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706995",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "churro": {
+  "kcal": 419,
+  "protein": 6.0,
+  "carbs": 48.9,
+  "fat": 22.2,
+  "fiber": 2.6,
+  "sugar": 23.4,
+  "sodium": 309.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708070",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "welsh rarebit": {
+  "kcal": 165,
+  "protein": 7.5,
+  "carbs": 6.3,
+  "fat": 12.3,
+  "fiber": 0.1,
+  "sugar": 4.2,
+  "sodium": 280.0,
+  "cholesterol": 26.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705793",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "hot dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706166",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "waldorf salad": {
+  "kcal": 180,
+  "protein": 1.4,
+  "carbs": 12.2,
+  "fat": 14.2,
+  "fiber": 2.0,
+  "sugar": 9.1,
+  "sodium": 87.0,
+  "cholesterol": 5.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709293",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "potato salad": {
+  "kcal": 157,
+  "protein": 2.0,
+  "carbs": 16.2,
+  "fat": 9.4,
+  "fiber": 1.3,
+  "sugar": 5.0,
+  "sodium": 329.0,
+  "cholesterol": 17.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "173343",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "quiche": {
+  "kcal": 365,
+  "protein": 11.9,
+  "carbs": 13.7,
+  "fat": 29.2,
+  "fiber": 0.8,
+  "sugar": 2.2,
+  "sodium": 361.0,
+  "cholesterol": 159.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708733",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "borscht": {
+  "kcal": 20,
+  "protein": 0.5,
+  "carbs": 3.9,
+  "fat": 0.4,
+  "fiber": 0.8,
+  "sugar": 2.2,
+  "sodium": 245.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710105",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bratwurst": {
+  "kcal": 333,
+  "protein": 13.7,
+  "carbs": 2.9,
+  "fat": 29.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 846.0,
+  "cholesterol": 74.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706174",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "foie gras": {
+  "kcal": 462,
+  "protein": 11.4,
+  "carbs": 4.7,
+  "fat": 43.8,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 697.0,
+  "cholesterol": 150.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "171100",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "burrito": {
+  "kcal": 219,
+  "protein": 11.1,
+  "carbs": 23.9,
+  "fat": 8.5,
+  "fiber": 2.5,
+  "sugar": 1.7,
+  "sodium": 486.0,
+  "cholesterol": 22.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708534",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "ratatouille": {
+  "kcal": 67,
+  "protein": 1.1,
+  "carbs": 5.8,
+  "fat": 4.7,
+  "fiber": 1.9,
+  "sugar": 3.4,
+  "sodium": 151.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710028",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cornbread": {
+  "kcal": 330,
+  "protein": 6.6,
+  "carbs": 54.5,
+  "fat": 9.6,
+  "fiber": 2.3,
+  "sugar": 16.1,
+  "sodium": 599.0,
+  "cholesterol": 57.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707810",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chow mein": {
+  "kcal": 85,
+  "protein": 6.8,
+  "carbs": 8.3,
+  "fat": 2.8,
+  "fiber": 1.0,
+  "sugar": 1.7,
+  "sodium": 311.0,
+  "cholesterol": 16.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "168083",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "roast beef": {
+  "kcal": 206,
+  "protein": 29.1,
+  "carbs": 0.0,
+  "fat": 9.7,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 372.0,
+  "cholesterol": 89.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705847",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "peking duck": {
+  "kcal": 154,
+  "protein": 5.3,
+  "carbs": 6.5,
+  "fat": 11.8,
+  "fiber": 0.3,
+  "sugar": 4.4,
+  "sodium": 287.0,
+  "cholesterol": 22.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706141",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tahini": {
+  "kcal": 697,
+  "protein": 19.7,
+  "carbs": 14.2,
+  "fat": 62.4,
+  "fiber": 8.4,
+  "sugar": 0.5,
+  "sodium": 64.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707587",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "gumbo": {
+  "kcal": 89,
+  "protein": 8.2,
+  "carbs": 6.5,
+  "fat": 3.4,
+  "fiber": 0.9,
+  "sugar": 1.7,
+  "sodium": 400.0,
+  "cholesterol": 30.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706726",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fajita": {
+  "kcal": 219,
+  "protein": 11.7,
+  "carbs": 18.0,
+  "fat": 11.0,
+  "fiber": 1.5,
+  "sugar": 2.4,
+  "sodium": 455.0,
+  "cholesterol": 32.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708603",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken fried steak": {
+  "kcal": 306,
+  "protein": 19.9,
+  "carbs": 7.9,
+  "fat": 21.1,
+  "fiber": 0.3,
+  "sugar": 0.1,
+  "sodium": 432.0,
+  "cholesterol": 66.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705842",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sukiyaki": {
+  "kcal": 102,
+  "protein": 10.7,
+  "carbs": 4.4,
+  "fat": 4.8,
+  "fiber": 1.0,
+  "sugar": 2.6,
+  "sodium": 338.0,
+  "cholesterol": 72.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706751",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "scrapple": {
+  "kcal": 227,
+  "protein": 8.6,
+  "carbs": 15.0,
+  "fat": 14.8,
+  "fiber": 0.3,
+  "sugar": 0.2,
+  "sodium": 385.0,
+  "cholesterol": 52.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706198",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chili con carne": {
+  "kcal": 107,
+  "protein": 5.8,
+  "carbs": 13.1,
+  "fat": 3.5,
+  "fiber": 3.3,
+  "sugar": 1.9,
+  "sodium": 449.0,
+  "cholesterol": 9.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "172097",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "kielbasa": {
+  "kcal": 325,
+  "protein": 10.8,
+  "carbs": 3.7,
+  "fat": 29.6,
+  "fiber": 0.0,
+  "sugar": 2.0,
+  "sodium": 928.0,
+  "cholesterol": 61.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "173879",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "polenta": {
+  "kcal": 58,
+  "protein": 1.1,
+  "carbs": 12.5,
+  "fat": 0.3,
+  "fiber": 0.6,
+  "sugar": 0.2,
+  "sodium": 71.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708374",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "reuben sandwich": {
+  "kcal": 282,
+  "protein": 10.0,
+  "carbs": 16.4,
+  "fat": 19.4,
+  "fiber": 2.2,
+  "sugar": 3.5,
+  "sodium": 688.0,
+  "cholesterol": 43.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706952",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "s'more": {
+  "kcal": 465,
+  "protein": 6.4,
+  "carbs": 69.0,
+  "fat": 18.6,
+  "fiber": 2.8,
+  "sugar": 43.9,
+  "sodium": 221.0,
+  "cholesterol": 12.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707925",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "beignet": {
+  "kcal": 417,
+  "protein": 5.5,
+  "carbs": 53.7,
+  "fat": 20.2,
+  "fiber": 1.9,
+  "sugar": 31.1,
+  "sodium": 281.0,
+  "cholesterol": 27.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708071",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "breakfast sausage": {
+  "kcal": 327,
+  "protein": 12.9,
+  "carbs": 4.6,
+  "fat": 28.2,
+  "fiber": 0.0,
+  "sugar": 1.0,
+  "sodium": 904.0,
+  "cholesterol": 60.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174616",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chorizo": {
+  "kcal": 341,
+  "protein": 19.3,
+  "carbs": 2.6,
+  "fat": 28.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 983.0,
+  "cholesterol": 107.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706179",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "gyro": {
+  "kcal": 184,
+  "protein": 11.2,
+  "carbs": 18.8,
+  "fat": 6.8,
+  "fiber": 1.0,
+  "sugar": 1.7,
+  "sodium": 323.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706962",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "nachos": {
+  "kcal": 265,
+  "protein": 7.6,
+  "carbs": 23.9,
+  "fat": 15.8,
+  "fiber": 1.7,
+  "sugar": 0.4,
+  "sodium": 488.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708576",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "couscous": {
+  "kcal": 112,
+  "protein": 3.8,
+  "carbs": 23.2,
+  "fat": 0.2,
+  "fiber": 1.4,
+  "sugar": 0.1,
+  "sodium": 5.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169700",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "frozen yogurt": {
+  "kcal": 127,
+  "protein": 3.0,
+  "carbs": 21.6,
+  "fat": 3.6,
+  "fiber": 0.0,
+  "sugar": 19.9,
+  "sodium": 63.0,
+  "cholesterol": 13.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705451",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "injera": {
+  "kcal": 93,
+  "protein": 2.5,
+  "carbs": 19.4,
+  "fat": 0.7,
+  "fiber": 2.8,
+  "sugar": 1.0,
+  "sodium": 226.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707796",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "muesli": {
+  "kcal": 352,
+  "protein": 11.2,
+  "carbs": 75.7,
+  "fat": 3.3,
+  "fiber": 9.1,
+  "sugar": 20.0,
+  "sodium": 27.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169075",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "banana split": {
+  "kcal": 199,
+  "protein": 2.4,
+  "carbs": 32.6,
+  "fat": 6.9,
+  "fiber": 1.0,
+  "sugar": 24.2,
+  "sodium": 97.0,
+  "cholesterol": 24.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705660",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pound cake": {
+  "kcal": 353,
+  "protein": 5.0,
+  "carbs": 53.6,
+  "fat": 14.0,
+  "fiber": 0.6,
+  "sugar": 33.4,
+  "sodium": 377.0,
+  "cholesterol": 66.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707882",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "flan": {
+  "kcal": 178,
+  "protein": 5.2,
+  "carbs": 28.2,
+  "fat": 4.9,
+  "fiber": 0.0,
+  "sugar": 28.1,
+  "sodium": 163.0,
+  "cholesterol": 112.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705683",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pad thai": {
+  "kcal": 160,
+  "protein": 8.2,
+  "carbs": 14.7,
+  "fat": 7.9,
+  "fiber": 1.2,
+  "sugar": 4.2,
+  "sodium": 337.0,
+  "cholesterol": 42.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708808",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "idli": {
+  "kcal": 128,
+  "protein": 6.4,
+  "carbs": 25.0,
+  "fat": 0.3,
+  "fiber": 5.8,
+  "sugar": 1.9,
+  "sodium": 252.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708346",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cherry pie": {
+  "kcal": 311,
+  "protein": 3.0,
+  "carbs": 40.9,
+  "fat": 15.3,
+  "fiber": 1.9,
+  "sugar": 19.5,
+  "sodium": 217.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707999",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pan de muerto": {
+  "kcal": 371,
+  "protein": 9.1,
+  "carbs": 56.4,
+  "fat": 12.2,
+  "fiber": 2.2,
+  "sugar": 14.1,
+  "sodium": 231.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707669",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken divan": {
+  "kcal": 140,
+  "protein": 15.5,
+  "carbs": 4.0,
+  "fat": 7.3,
+  "fiber": 1.3,
+  "sugar": 0.9,
+  "sodium": 295.0,
+  "cholesterol": 71.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706789",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "corn pudding": {
+  "kcal": 131,
+  "protein": 4.4,
+  "carbs": 17.0,
+  "fat": 5.0,
+  "fiber": 1.2,
+  "sugar": 6.6,
+  "sodium": 282.0,
+  "cholesterol": 72.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170492",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dobos torte": {
+  "kcal": 241,
+  "protein": 3.3,
+  "carbs": 33.9,
+  "fat": 10.4,
+  "fiber": 0.9,
+  "sugar": 19.1,
+  "sodium": 273.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707888",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "caldo de pollo": {
+  "kcal": 55,
+  "protein": 6.2,
+  "carbs": 4.0,
+  "fat": 1.6,
+  "fiber": 0.8,
+  "sugar": 1.1,
+  "sodium": 295.0,
+  "cholesterol": 25.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707135",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "snack cake": {
+  "kcal": 374,
+  "protein": 3.5,
+  "carbs": 64.0,
+  "fat": 11.5,
+  "fiber": 1.0,
+  "sugar": 37.3,
+  "sodium": 470.0,
+  "cholesterol": 41.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707874",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pierogi": {
+  "kcal": 195,
+  "protein": 5.3,
+  "carbs": 29.6,
+  "fat": 6.1,
+  "fiber": 0.9,
+  "sugar": 1.8,
+  "sodium": 474.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708720",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "macaroni and cheese": {
+  "kcal": 223,
+  "protein": 8.7,
+  "carbs": 23.1,
+  "fat": 10.5,
+  "fiber": 1.2,
+  "sugar": 2.4,
+  "sodium": 358.0,
+  "cholesterol": 25.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708811",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "corn dog": {
+  "kcal": 250,
+  "protein": 8.6,
+  "carbs": 27.0,
+  "fat": 12.0,
+  "fiber": 1.0,
+  "sugar": 7.5,
+  "sodium": 668.0,
+  "cholesterol": 44.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707044",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dumpling": {
+  "kcal": 125,
+  "protein": 3.5,
+  "carbs": 20.5,
+  "fat": 3.4,
+  "fiber": 0.7,
+  "sugar": 1.2,
+  "sodium": 428.0,
+  "cholesterol": 2.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708344",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken nugget": {
+  "kcal": 307,
+  "protein": 15.9,
+  "carbs": 14.9,
+  "fat": 20.4,
+  "fiber": 0.9,
+  "sugar": 0.1,
+  "sodium": 594.0,
+  "cholesterol": 55.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706092",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "eggs benedict": {
+  "kcal": 288,
+  "protein": 13.8,
+  "carbs": 8.5,
+  "fat": 22.1,
+  "fiber": 0.6,
+  "sugar": 1.2,
+  "sodium": 468.0,
+  "cholesterol": 271.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707180",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "mashed potato": {
+  "kcal": 114,
+  "protein": 2.1,
+  "carbs": 17.6,
+  "fat": 4.1,
+  "fiber": 1.2,
+  "sugar": 2.1,
+  "sodium": 210.0,
+  "cholesterol": 10.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709492",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "quesadilla": {
+  "kcal": 316,
+  "protein": 13.4,
+  "carbs": 28.6,
+  "fat": 16.2,
+  "fiber": 2.0,
+  "sugar": 2.4,
+  "sodium": 676.0,
+  "cholesterol": 36.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708590",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "congee": {
+  "kcal": 39,
+  "protein": 0.8,
+  "carbs": 8.4,
+  "fat": 0.1,
+  "fiber": 0.1,
+  "sugar": 0.0,
+  "sodium": 234.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708418",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chocolate brownie": {
+  "kcal": 405,
+  "protein": 4.8,
+  "carbs": 63.9,
+  "fat": 16.3,
+  "fiber": 2.1,
+  "sugar": 36.6,
+  "sodium": 286.0,
+  "cholesterol": 17.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707904",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "empanada": {
+  "kcal": 333,
+  "protein": 12.1,
+  "carbs": 27.4,
+  "fat": 19.2,
+  "fiber": 1.6,
+  "sugar": 2.1,
+  "sodium": 459.0,
+  "cholesterol": 31.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708711",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried rice": {
+  "kcal": 174,
+  "protein": 3.8,
+  "carbs": 32.5,
+  "fat": 3.2,
+  "fiber": 1.1,
+  "sugar": 0.6,
+  "sodium": 361.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708952",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cuban sandwich": {
+  "kcal": 228,
+  "protein": 15.9,
+  "carbs": 16.3,
+  "fat": 10.7,
+  "fiber": 0.8,
+  "sugar": 2.5,
+  "sodium": 553.0,
+  "cholesterol": 44.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706973",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cheesecake": {
+  "kcal": 399,
+  "protein": 5.3,
+  "carbs": 34.8,
+  "fat": 26.5,
+  "fiber": 0.5,
+  "sugar": 26.6,
+  "sodium": 277.0,
+  "cholesterol": 114.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707861",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "samosa": {
+  "kcal": 310,
+  "protein": 5.1,
+  "carbs": 33.2,
+  "fat": 17.5,
+  "fiber": 1.8,
+  "sugar": 1.3,
+  "sodium": 388.0,
+  "cholesterol": 14.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708730",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "key lime pie": {
+  "kcal": 322,
+  "protein": 5.8,
+  "carbs": 42.2,
+  "fat": 14.9,
+  "fiber": 0.3,
+  "sugar": 35.9,
+  "sodium": 182.0,
+  "cholesterol": 39.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708001",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "potato skins": {
+  "kcal": 199,
+  "protein": 6.1,
+  "carbs": 16.3,
+  "fat": 12.4,
+  "fiber": 1.5,
+  "sugar": 1.1,
+  "sodium": 417.0,
+  "cholesterol": 19.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709491",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken curry": {
+  "kcal": 107,
+  "protein": 6.5,
+  "carbs": 6.5,
+  "fat": 6.5,
+  "fiber": 1.4,
+  "sugar": 2.6,
+  "sodium": 376.0,
+  "cholesterol": 22.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706437",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "shrimp creole": {
+  "kcal": 123,
+  "protein": 10.1,
+  "carbs": 11.9,
+  "fat": 3.6,
+  "fiber": 0.8,
+  "sugar": 1.0,
+  "sodium": 436.0,
+  "cholesterol": 108.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706713",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pork tenderloin sandwich": {
+  "kcal": 226,
+  "protein": 17.7,
+  "carbs": 25.4,
+  "fat": 5.5,
+  "fiber": 1.2,
+  "sugar": 2.8,
+  "sodium": 403.0,
+  "cholesterol": 38.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706977",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried plantain": {
+  "kcal": 309,
+  "protein": 1.5,
+  "carbs": 49.2,
+  "fat": 11.8,
+  "fiber": 3.5,
+  "sugar": 3.6,
+  "sodium": 2.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "168199",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "stuffed peppers": {
+  "kcal": 198,
+  "protein": 9.2,
+  "carbs": 4.2,
+  "fat": 15.9,
+  "fiber": 0.7,
+  "sugar": 1.6,
+  "sodium": 288.0,
+  "cholesterol": 31.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709072",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "potato wedges": {
+  "kcal": 129,
+  "protein": 2.7,
+  "carbs": 25.5,
+  "fat": 2.2,
+  "fiber": 2.0,
+  "sugar": 0.3,
+  "sodium": 49.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "168443",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "corn relish": {
+  "kcal": 111,
+  "protein": 1.7,
+  "carbs": 25.7,
+  "fat": 0.9,
+  "fiber": 1.5,
+  "sugar": 18.4,
+  "sodium": 336.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710073",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "crispy fried chicken": {
+  "kcal": 268,
+  "protein": 21.2,
+  "carbs": 8.5,
+  "fat": 16.6,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 607.0,
+  "cholesterol": 76.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170348",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "scampi": {
+  "kcal": 192,
+  "protein": 15.4,
+  "carbs": 2.3,
+  "fat": 13.0,
+  "fiber": 0.2,
+  "sugar": 0.1,
+  "sodium": 168.0,
+  "cholesterol": 154.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706458",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pilaf": {
+  "kcal": 137,
+  "protein": 3.3,
+  "carbs": 24.1,
+  "fat": 3.0,
+  "fiber": 0.4,
+  "sugar": 0.5,
+  "sodium": 414.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709077",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sambar": {
+  "kcal": 86,
+  "protein": 4.3,
+  "carbs": 11.8,
+  "fat": 2.7,
+  "fiber": 4.0,
+  "sugar": 2.0,
+  "sodium": 207.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707430",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "escargot": {
+  "kcal": 158,
+  "protein": 20.0,
+  "carbs": 2.5,
+  "fat": 6.9,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 287.0,
+  "cholesterol": 62.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706368",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sea cucumber": {
+  "kcal": 56,
+  "protein": 13.0,
+  "carbs": 0.0,
+  "fat": 0.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 0.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "167618",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fudge": {
+  "kcal": 396,
+  "protein": 1.7,
+  "carbs": 79.4,
+  "fat": 7.9,
+  "fiber": 0.8,
+  "sugar": 76.4,
+  "sodium": 46.0,
+  "cholesterol": 14.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710340",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cottage pudding": {
+  "kcal": 156,
+  "protein": 5.6,
+  "carbs": 23.5,
+  "fat": 4.9,
+  "fiber": 1.0,
+  "sugar": 15.1,
+  "sodium": 206.0,
+  "cholesterol": 61.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705680",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "puto": {
+  "kcal": 279,
+  "protein": 2.5,
+  "carbs": 53.6,
+  "fat": 6.5,
+  "fiber": 0.7,
+  "sugar": 31.1,
+  "sodium": 36.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708345",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dal makhani": {
+  "kcal": 145,
+  "protein": 8.6,
+  "carbs": 19.2,
+  "fat": 4.3,
+  "fiber": 7.5,
+  "sugar": 1.7,
+  "sodium": 309.0,
+  "cholesterol": 10.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707427",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pho": {
+  "kcal": 77,
+  "protein": 5.8,
+  "carbs": 5.6,
+  "fat": 3.3,
+  "fiber": 0.4,
+  "sugar": 0.5,
+  "sodium": 365.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707124",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "liver and onions": {
+  "kcal": 129,
+  "protein": 16.7,
+  "carbs": 7.0,
+  "fat": 3.6,
+  "fiber": 0.5,
+  "sugar": 1.8,
+  "sodium": 276.0,
+  "cholesterol": 232.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706876",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "yi mein": {
+  "kcal": 121,
+  "protein": 4.8,
+  "carbs": 20.2,
+  "fat": 2.4,
+  "fiber": 1.3,
+  "sugar": 2.6,
+  "sodium": 430.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708798",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "shrimp roe noodles": {
+  "kcal": 146,
+  "protein": 7.3,
+  "carbs": 16.4,
+  "fat": 5.5,
+  "fiber": 0.8,
+  "sugar": 0.3,
+  "sodium": 144.0,
+  "cholesterol": 59.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706553",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "lai fun": {
+  "kcal": 107,
+  "protein": 1.8,
+  "carbs": 23.9,
+  "fat": 0.2,
+  "fiber": 1.0,
+  "sugar": 0.0,
+  "sodium": 250.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708356",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "baba ghanoush": {
+  "kcal": 183,
+  "protein": 4.8,
+  "carbs": 8.2,
+  "fat": 15.0,
+  "fiber": 3.9,
+  "sugar": 2.8,
+  "sodium": 209.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710049",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "shortcake": {
+  "kcal": 346,
+  "protein": 6.1,
+  "carbs": 48.5,
+  "fat": 14.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 506.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174941",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "moussaka": {
+  "kcal": 96,
+  "protein": 7.1,
+  "carbs": 4.7,
+  "fat": 5.5,
+  "fiber": 1.5,
+  "sugar": 2.9,
+  "sodium": 176.0,
+  "cholesterol": 54.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710144",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dulce de leche": {
+  "kcal": 315,
+  "protein": 6.8,
+  "carbs": 55.4,
+  "fat": 7.3,
+  "fiber": 0.0,
+  "sugar": 49.7,
+  "sodium": 129.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705699",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "risotto": {
+  "kcal": 166,
+  "protein": 5.2,
+  "carbs": 20.0,
+  "fat": 7.0,
+  "fiber": 0.3,
+  "sugar": 0.1,
+  "sodium": 322.0,
+  "cholesterol": 13.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709094",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "funnel cake": {
+  "kcal": 353,
+  "protein": 7.9,
+  "carbs": 43.5,
+  "fat": 16.6,
+  "fiber": 1.0,
+  "sugar": 15.9,
+  "sodium": 278.0,
+  "cholesterol": 64.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708349",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried dough": {
+  "kcal": 384,
+  "protein": 9.4,
+  "carbs": 45.0,
+  "fat": 18.8,
+  "fiber": 1.5,
+  "sugar": 3.5,
+  "sodium": 177.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707653",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "clam chowder": {
+  "kcal": 93,
+  "protein": 3.1,
+  "carbs": 9.2,
+  "fat": 4.8,
+  "fiber": 1.0,
+  "sugar": 0.9,
+  "sodium": 247.0,
+  "cholesterol": 16.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707139",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "gazpacho": {
+  "kcal": 26,
+  "protein": 0.8,
+  "carbs": 4.5,
+  "fat": 0.6,
+  "fiber": 1.0,
+  "sugar": 2.8,
+  "sodium": 208.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710106",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "baked potato": {
+  "kcal": 93,
+  "protein": 1.9,
+  "carbs": 21.4,
+  "fat": 0.1,
+  "fiber": 1.5,
+  "sugar": 1.7,
+  "sodium": 181.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709383",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bouillabaisse": {
+  "kcal": 67,
+  "protein": 8.2,
+  "carbs": 1.6,
+  "fat": 3.0,
+  "fiber": 0.3,
+  "sugar": 0.7,
+  "sodium": 225.0,
+  "cholesterol": 31.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706717",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "grits": {
+  "kcal": 71,
+  "protein": 1.2,
+  "carbs": 12.2,
+  "fat": 1.8,
+  "fiber": 0.7,
+  "sugar": 0.1,
+  "sodium": 81.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708363",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "shaved ice": {
+  "kcal": 128,
+  "protein": 0.4,
+  "carbs": 32.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 32.6,
+  "sodium": 22.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710317",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "coconut rice": {
+  "kcal": 267,
+  "protein": 3.6,
+  "carbs": 26.6,
+  "fat": 17.2,
+  "fiber": 1.9,
+  "sugar": 3.3,
+  "sodium": 182.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709032",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "coconut bar": {
+  "kcal": 481,
+  "protein": 2.1,
+  "carbs": 55.9,
+  "fat": 27.6,
+  "fiber": 6.4,
+  "sugar": 36.2,
+  "sodium": 128.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170282",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sundae": {
+  "kcal": 196,
+  "protein": 4.7,
+  "carbs": 31.8,
+  "fat": 6.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 126.0,
+  "cholesterol": 16.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "173275",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "nabak-kimchi": {
+  "kcal": 15,
+  "protein": 1.1,
+  "carbs": 2.4,
+  "fat": 0.5,
+  "fiber": 1.6,
+  "sugar": 1.1,
+  "sodium": 498.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710077",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "baek-kimchi": {
+  "kcal": 15,
+  "protein": 1.1,
+  "carbs": 2.4,
+  "fat": 0.5,
+  "fiber": 1.6,
+  "sugar": 1.1,
+  "sodium": 498.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710077",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "marie biscuit": {
+  "kcal": 406,
+  "protein": 7.0,
+  "carbs": 70.5,
+  "fat": 10.6,
+  "fiber": 3.5,
+  "sugar": 21.2,
+  "sodium": 370.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707971",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "french dip": {
+  "kcal": 184,
+  "protein": 13.2,
+  "carbs": 24.5,
+  "fat": 3.5,
+  "fiber": 1.1,
+  "sugar": 2.8,
+  "sodium": 631.0,
+  "cholesterol": 23.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706957",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "veggie burger": {
+  "kcal": 224,
+  "protein": 13.0,
+  "carbs": 30.8,
+  "fat": 5.2,
+  "fiber": 3.5,
+  "sugar": 3.9,
+  "sodium": 534.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707481",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "steak tartare": {
+  "kcal": 216,
+  "protein": 17.4,
+  "carbs": 0.3,
+  "fat": 15.6,
+  "fiber": 0.2,
+  "sugar": 0.1,
+  "sodium": 370.0,
+  "cholesterol": 165.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706394",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bologna sausage": {
+  "kcal": 281,
+  "protein": 10.3,
+  "carbs": 6.3,
+  "fat": 23.8,
+  "fiber": 0.0,
+  "sugar": 2.0,
+  "sodium": 1100.0,
+  "cholesterol": 92.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706176",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bibimbap": {
+  "kcal": 76,
+  "protein": 5.5,
+  "carbs": 8.1,
+  "fat": 2.4,
+  "fiber": 1.1,
+  "sugar": 1.5,
+  "sodium": 435.0,
+  "cholesterol": 10.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708950",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fufu": {
+  "kcal": 166,
+  "protein": 1.5,
+  "carbs": 33.6,
+  "fat": 3.0,
+  "fiber": 3.1,
+  "sugar": 1.1,
+  "sodium": 143.0,
+  "cholesterol": 2.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709568",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken sandwich": {
+  "kcal": 281,
+  "protein": 12.2,
+  "carbs": 27.5,
+  "fat": 13.5,
+  "fiber": 1.7,
+  "sugar": 3.1,
+  "sodium": 571.0,
+  "cholesterol": 21.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707000",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "american fried rice": {
+  "kcal": 174,
+  "protein": 3.8,
+  "carbs": 32.5,
+  "fat": 3.2,
+  "fiber": 1.1,
+  "sugar": 0.6,
+  "sodium": 361.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708952",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "rice pudding": {
+  "kcal": 108,
+  "protein": 3.2,
+  "carbs": 18.4,
+  "fat": 2.1,
+  "fiber": 0.3,
+  "sugar": 11.6,
+  "sodium": 97.0,
+  "cholesterol": 12.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705685",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cheese fries": {
+  "kcal": 260,
+  "protein": 3.3,
+  "carbs": 29.8,
+  "fat": 14.2,
+  "fiber": 2.6,
+  "sugar": 0.3,
+  "sodium": 365.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709469",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "shark fin soup": {
+  "kcal": 46,
+  "protein": 3.2,
+  "carbs": 3.8,
+  "fat": 2.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 501.0,
+  "cholesterol": 2.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174532",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pozole": {
+  "kcal": 43,
+  "protein": 3.4,
+  "carbs": 4.6,
+  "fat": 1.2,
+  "fiber": 0.9,
+  "sugar": 1.0,
+  "sodium": 248.0,
+  "cholesterol": 12.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707129",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pakora": {
+  "kcal": 125,
+  "protein": 4.9,
+  "carbs": 16.2,
+  "fat": 4.8,
+  "fiber": 3.2,
+  "sugar": 3.0,
+  "sodium": 380.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710066",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "steak sandwich": {
+  "kcal": 247,
+  "protein": 18.9,
+  "carbs": 23.5,
+  "fat": 8.3,
+  "fiber": 2.8,
+  "sugar": 2.7,
+  "sodium": 406.0,
+  "cholesterol": 40.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706959",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "upma": {
+  "kcal": 87,
+  "protein": 2.0,
+  "carbs": 13.8,
+  "fat": 2.6,
+  "fiber": 1.3,
+  "sugar": 1.6,
+  "sodium": 98.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709128",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "coleslaw": {
+  "kcal": 117,
+  "protein": 0.9,
+  "carbs": 10.4,
+  "fat": 8.0,
+  "fiber": 1.9,
+  "sugar": 7.4,
+  "sodium": 280.0,
+  "cholesterol": 9.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709815",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "beef stroganoff": {
+  "kcal": 150,
+  "protein": 10.1,
+  "carbs": 6.2,
+  "fat": 9.3,
+  "fiber": 0.7,
+  "sugar": 1.4,
+  "sodium": 458.0,
+  "cholesterol": 35.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706382",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "squab": {
+  "kcal": 213,
+  "protein": 23.9,
+  "carbs": 0.0,
+  "fat": 13.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 57.0,
+  "cholesterol": 116.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169905",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "basbousa": {
+  "kcal": 282,
+  "protein": 4.8,
+  "carbs": 43.8,
+  "fat": 9.9,
+  "fiber": 0.8,
+  "sugar": 29.8,
+  "sodium": 81.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708045",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tuna casserole": {
+  "kcal": 139,
+  "protein": 9.0,
+  "carbs": 13.9,
+  "fat": 5.2,
+  "fiber": 0.8,
+  "sugar": 1.1,
+  "sodium": 328.0,
+  "cholesterol": 28.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706571",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sloppy joe": {
+  "kcal": 180,
+  "protein": 11.8,
+  "carbs": 18.4,
+  "fat": 6.4,
+  "fiber": 2.2,
+  "sugar": 4.3,
+  "sodium": 343.0,
+  "cholesterol": 26.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706884",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "frikadeller": {
+  "kcal": 143,
+  "protein": 12.2,
+  "carbs": 6.3,
+  "fat": 7.5,
+  "fiber": 0.4,
+  "sugar": 1.2,
+  "sodium": 499.0,
+  "cholesterol": 48.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706580",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cinnamon roll": {
+  "kcal": 452,
+  "protein": 4.5,
+  "carbs": 48.6,
+  "fat": 26.6,
+  "fiber": 1.2,
+  "sugar": 25.7,
+  "sodium": 305.0,
+  "cholesterol": 5.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707668",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "hot wiener": {
+  "kcal": 329,
+  "protein": 11.4,
+  "carbs": 2.8,
+  "fat": 30.3,
+  "fiber": 0.0,
+  "sugar": 1.6,
+  "sodium": 1020.0,
+  "cholesterol": 56.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174591",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "greek salad": {
+  "kcal": 48,
+  "protein": 2.8,
+  "carbs": 4.3,
+  "fat": 2.3,
+  "fiber": 1.5,
+  "sugar": 1.4,
+  "sodium": 246.0,
+  "cholesterol": 6.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709830",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tabbouleh": {
+  "kcal": 127,
+  "protein": 1.6,
+  "carbs": 9.7,
+  "fat": 9.7,
+  "fiber": 1.8,
+  "sugar": 1.3,
+  "sodium": 495.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709131",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chile relleno": {
+  "kcal": 228,
+  "protein": 7.8,
+  "carbs": 10.4,
+  "fat": 17.2,
+  "fiber": 0.7,
+  "sugar": 1.5,
+  "sodium": 445.0,
+  "cholesterol": 30.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710043",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "red velvet cake": {
+  "kcal": 355,
+  "protein": 2.8,
+  "carbs": 54.4,
+  "fat": 14.6,
+  "fiber": 1.2,
+  "sugar": 40.2,
+  "sodium": 296.0,
+  "cholesterol": 43.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707884",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "rusk": {
+  "kcal": 407,
+  "protein": 13.5,
+  "carbs": 72.3,
+  "fat": 7.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 253.0,
+  "cholesterol": 78.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174981",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "challah": {
+  "kcal": 287,
+  "protein": 9.5,
+  "carbs": 47.8,
+  "fat": 6.0,
+  "fiber": 2.3,
+  "sugar": 1.8,
+  "sodium": 380.0,
+  "cholesterol": 51.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707624",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried ice cream": {
+  "kcal": 282,
+  "protein": 3.9,
+  "carbs": 32.8,
+  "fat": 15.2,
+  "fiber": 1.2,
+  "sugar": 20.9,
+  "sodium": 159.0,
+  "cholesterol": 34.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705663",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "onion ring": {
+  "kcal": 352,
+  "protein": 4.2,
+  "carbs": 39.9,
+  "fat": 19.8,
+  "fiber": 2.6,
+  "sugar": 5.0,
+  "sodium": 575.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710055",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dahi vada": {
+  "kcal": 266,
+  "protein": 12.8,
+  "carbs": 33.2,
+  "fat": 9.7,
+  "fiber": 5.8,
+  "sugar": 1.3,
+  "sodium": 315.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709130",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "blondie": {
+  "kcal": 405,
+  "protein": 4.8,
+  "carbs": 63.9,
+  "fat": 16.3,
+  "fiber": 2.1,
+  "sugar": 36.6,
+  "sodium": 286.0,
+  "cholesterol": 17.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707907",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "salisbury steak": {
+  "kcal": 149,
+  "protein": 7.0,
+  "carbs": 6.8,
+  "fat": 10.5,
+  "fiber": 1.0,
+  "sugar": 0.3,
+  "sodium": 509.0,
+  "cholesterol": 33.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706380",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sauerbraten": {
+  "kcal": 251,
+  "protein": 28.4,
+  "carbs": 0.0,
+  "fat": 15.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 370.0,
+  "cholesterol": 101.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705848",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "german chocolate cake": {
+  "kcal": 360,
+  "protein": 3.7,
+  "carbs": 49.9,
+  "fat": 17.6,
+  "fiber": 2.4,
+  "sugar": 34.7,
+  "sodium": 297.0,
+  "cholesterol": 43.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707869",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "kipper": {
+  "kcal": 217,
+  "protein": 24.6,
+  "carbs": 0.0,
+  "fat": 12.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 918.0,
+  "cholesterol": 82.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "173668",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bologna sandwich": {
+  "kcal": 272,
+  "protein": 10.9,
+  "carbs": 26.5,
+  "fat": 13.5,
+  "fiber": 2.8,
+  "sugar": 3.6,
+  "sodium": 759.0,
+  "cholesterol": 44.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707042",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cobbler": {
+  "kcal": 217,
+  "protein": 2.0,
+  "carbs": 33.6,
+  "fat": 8.7,
+  "fiber": 1.6,
+  "sugar": 16.9,
+  "sodium": 180.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708019",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cabbage roll": {
+  "kcal": 114,
+  "protein": 8.3,
+  "carbs": 8.8,
+  "fat": 5.1,
+  "fiber": 1.3,
+  "sugar": 3.5,
+  "sodium": 338.0,
+  "cholesterol": 39.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706620",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "deviled egg": {
+  "kcal": 198,
+  "protein": 11.5,
+  "carbs": 1.1,
+  "fat": 15.9,
+  "fiber": 0.0,
+  "sugar": 1.1,
+  "sodium": 430.0,
+  "cholesterol": 343.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707181",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "apple strudel": {
+  "kcal": 281,
+  "protein": 2.0,
+  "carbs": 37.2,
+  "fat": 14.1,
+  "fiber": 0.8,
+  "sugar": 21.1,
+  "sodium": 132.0,
+  "cholesterol": 39.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708039",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "wonton": {
+  "kcal": 32,
+  "protein": 2.1,
+  "carbs": 5.2,
+  "fat": 0.3,
+  "fiber": 0.2,
+  "sugar": 0.3,
+  "sodium": 406.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "171821",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chess pie": {
+  "kcal": 210,
+  "protein": 5.5,
+  "carbs": 20.8,
+  "fat": 11.6,
+  "fiber": 1.6,
+  "sugar": 11.6,
+  "sodium": 275.0,
+  "cholesterol": 33.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708007",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "potatoes o'brien": {
+  "kcal": 81,
+  "protein": 2.4,
+  "carbs": 15.5,
+  "fat": 1.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 217.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170498",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sopaipilla": {
+  "kcal": 367,
+  "protein": 5.8,
+  "carbs": 41.5,
+  "fat": 20.2,
+  "fiber": 1.4,
+  "sugar": 0.1,
+  "sodium": 898.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708034",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "lemon ice box pie": {
+  "kcal": 280,
+  "protein": 2.4,
+  "carbs": 31.5,
+  "fat": 16.2,
+  "fiber": 0.7,
+  "sugar": 18.4,
+  "sodium": 169.0,
+  "cholesterol": 26.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708000",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cobb salad": {
+  "kcal": 93,
+  "protein": 11.3,
+  "carbs": 2.6,
+  "fat": 4.3,
+  "fiber": 1.2,
+  "sugar": 1.1,
+  "sodium": 159.0,
+  "cholesterol": 61.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709832",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "apple cake": {
+  "kcal": 376,
+  "protein": 2.4,
+  "carbs": 52.5,
+  "fat": 17.5,
+  "fiber": 0.9,
+  "sugar": 39.5,
+  "sodium": 280.0,
+  "cholesterol": 47.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707855",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "orange chicken": {
+  "kcal": 262,
+  "protein": 14.5,
+  "carbs": 22.5,
+  "fat": 12.7,
+  "fiber": 0.8,
+  "sugar": 13.6,
+  "sodium": 553.0,
+  "cholesterol": 61.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706443",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "kung pao chicken": {
+  "kcal": 129,
+  "protein": 9.8,
+  "carbs": 6.9,
+  "fat": 7.0,
+  "fiber": 1.5,
+  "sugar": 3.0,
+  "sodium": 402.0,
+  "cholesterol": 26.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706796",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "rice krispies treats": {
+  "kcal": 417,
+  "protein": 3.4,
+  "carbs": 80.5,
+  "fat": 9.0,
+  "fiber": 0.0,
+  "sugar": 19.4,
+  "sodium": 351.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169687",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken fingers": {
+  "kcal": 325,
+  "protein": 18.7,
+  "carbs": 16.8,
+  "fat": 20.3,
+  "fiber": 0.8,
+  "sugar": 0.2,
+  "sodium": 787.0,
+  "cholesterol": 46.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169019",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pecan pie": {
+  "kcal": 449,
+  "protein": 6.0,
+  "carbs": 49.5,
+  "fat": 25.2,
+  "fiber": 1.9,
+  "sugar": 31.0,
+  "sodium": 299.0,
+  "cholesterol": 89.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708015",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "parfait": {
+  "kcal": 104,
+  "protein": 5.2,
+  "carbs": 16.1,
+  "fat": 2.2,
+  "fiber": 1.3,
+  "sugar": 10.4,
+  "sodium": 44.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705450",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cheese sandwich": {
+  "kcal": 297,
+  "protein": 12.5,
+  "carbs": 31.9,
+  "fat": 13.3,
+  "fiber": 1.4,
+  "sugar": 5.1,
+  "sodium": 853.0,
+  "cholesterol": 36.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705794",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cincinnati chili": {
+  "kcal": 126,
+  "protein": 9.0,
+  "carbs": 14.3,
+  "fat": 3.6,
+  "fiber": 2.8,
+  "sugar": 1.3,
+  "sodium": 311.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706483",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tapioca pudding": {
+  "kcal": 130,
+  "protein": 1.9,
+  "carbs": 21.7,
+  "fat": 3.9,
+  "fiber": 0.0,
+  "sugar": 14.9,
+  "sodium": 145.0,
+  "cholesterol": 1.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705696",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "minestrone": {
+  "kcal": 40,
+  "protein": 1.7,
+  "carbs": 7.3,
+  "fat": 0.5,
+  "fiber": 1.5,
+  "sugar": 1.0,
+  "sodium": 241.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710114",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "seven-layer salad": {
+  "kcal": 229,
+  "protein": 4.7,
+  "carbs": 5.8,
+  "fat": 20.7,
+  "fiber": 1.2,
+  "sugar": 3.2,
+  "sodium": 265.0,
+  "cholesterol": 47.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709829",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chocolate pudding": {
+  "kcal": 142,
+  "protein": 2.1,
+  "carbs": 23.0,
+  "fat": 4.6,
+  "fiber": 0.0,
+  "sugar": 17.2,
+  "sodium": 152.0,
+  "cholesterol": 1.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705679",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried fish": {
+  "kcal": 255,
+  "protein": 13.5,
+  "carbs": 11.7,
+  "fat": 16.7,
+  "fiber": 0.5,
+  "sugar": 0.2,
+  "sodium": 418.0,
+  "cholesterol": 48.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706238",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "apple crisp": {
+  "kcal": 161,
+  "protein": 1.8,
+  "carbs": 30.8,
+  "fat": 3.4,
+  "fiber": 1.4,
+  "sugar": 19.7,
+  "sodium": 351.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169601",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tripe soup": {
+  "kcal": 74,
+  "protein": 8.6,
+  "carbs": 4.1,
+  "fat": 2.6,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 411.0,
+  "cholesterol": 59.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "168069",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chimichanga": {
+  "kcal": 324,
+  "protein": 12.1,
+  "carbs": 25.8,
+  "fat": 18.8,
+  "fiber": 1.8,
+  "sugar": 2.0,
+  "sodium": 413.0,
+  "cholesterol": 27.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708587",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dodger dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706167",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "waldorf pudding": {
+  "kcal": 156,
+  "protein": 5.6,
+  "carbs": 23.5,
+  "fat": 4.9,
+  "fiber": 1.0,
+  "sugar": 15.1,
+  "sodium": 206.0,
+  "cholesterol": 61.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705680",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "french onion soup": {
+  "kcal": 108,
+  "protein": 5.5,
+  "carbs": 11.8,
+  "fat": 4.5,
+  "fiber": 1.1,
+  "sugar": 2.5,
+  "sodium": 378.0,
+  "cholesterol": 13.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710108",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tres leches cake": {
+  "kcal": 270,
+  "protein": 6.4,
+  "carbs": 42.0,
+  "fat": 8.7,
+  "fiber": 0.3,
+  "sugar": 33.4,
+  "sodium": 71.0,
+  "cholesterol": 81.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707889",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "black forest gateau": {
+  "kcal": 228,
+  "protein": 3.5,
+  "carbs": 31.3,
+  "fat": 10.7,
+  "fiber": 1.7,
+  "sugar": 18.3,
+  "sodium": 214.0,
+  "cholesterol": 55.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707857",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pot pie": {
+  "kcal": 255,
+  "protein": 9.2,
+  "carbs": 23.9,
+  "fat": 13.5,
+  "fiber": 2.0,
+  "sugar": 3.3,
+  "sodium": 375.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706703",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "brunswick stew": {
+  "kcal": 84,
+  "protein": 9.2,
+  "carbs": 6.3,
+  "fat": 2.3,
+  "fiber": 1.3,
+  "sugar": 1.6,
+  "sodium": 309.0,
+  "cholesterol": 37.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706678",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "strudel": {
+  "kcal": 281,
+  "protein": 2.0,
+  "carbs": 37.2,
+  "fat": 14.1,
+  "fiber": 0.8,
+  "sugar": 21.1,
+  "sodium": 132.0,
+  "cholesterol": 39.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708039",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "philippine adobo": {
+  "kcal": 181,
+  "protein": 17.7,
+  "carbs": 8.9,
+  "fat": 7.9,
+  "fiber": 0.2,
+  "sugar": 0.0,
+  "sodium": 522.0,
+  "cholesterol": 75.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708958",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "clams casino": {
+  "kcal": 162,
+  "protein": 11.8,
+  "carbs": 10.3,
+  "fat": 7.9,
+  "fiber": 1.0,
+  "sugar": 1.8,
+  "sodium": 454.0,
+  "cholesterol": 25.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706564",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cream pie": {
+  "kcal": 284,
+  "protein": 2.4,
+  "carbs": 32.4,
+  "fat": 16.2,
+  "fiber": 0.7,
+  "sugar": 19.1,
+  "sodium": 168.0,
+  "cholesterol": 26.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708004",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cornish game hen": {
+  "kcal": 257,
+  "protein": 22.1,
+  "carbs": 0.0,
+  "fat": 18.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 386.0,
+  "cholesterol": 130.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706143",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicago-style hot dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706166",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sarson da saag": {
+  "kcal": 89,
+  "protein": 4.1,
+  "carbs": 8.8,
+  "fat": 4.3,
+  "fiber": 3.0,
+  "sugar": 1.8,
+  "sodium": 270.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709632",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "steamed clams": {
+  "kcal": 109,
+  "protein": 18.6,
+  "carbs": 4.5,
+  "fat": 1.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 71.0,
+  "cholesterol": 38.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706342",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "ham and cheese sandwich": {
+  "kcal": 212,
+  "protein": 14.9,
+  "carbs": 20.8,
+  "fat": 7.6,
+  "fiber": 2.4,
+  "sugar": 2.7,
+  "sodium": 711.0,
+  "cholesterol": 30.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706967",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "popover": {
+  "kcal": 268,
+  "protein": 11.1,
+  "carbs": 35.3,
+  "fat": 9.2,
+  "fiber": 1.1,
+  "sugar": 4.0,
+  "sodium": 284.0,
+  "cholesterol": 150.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707846",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "macaroni salad": {
+  "kcal": 246,
+  "protein": 6.9,
+  "carbs": 21.8,
+  "fat": 14.4,
+  "fiber": 1.3,
+  "sugar": 1.7,
+  "sodium": 262.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708947",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bánh bao": {
+  "kcal": 273,
+  "protein": 11.2,
+  "carbs": 39.8,
+  "fat": 7.6,
+  "fiber": 1.2,
+  "sugar": 5.9,
+  "sodium": 354.0,
+  "cholesterol": 21.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708724",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "gordita": {
+  "kcal": 296,
+  "protein": 17.0,
+  "carbs": 13.1,
+  "fat": 19.4,
+  "fiber": 1.0,
+  "sugar": 0.3,
+  "sodium": 330.0,
+  "cholesterol": 54.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708585",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "huevos rancheros": {
+  "kcal": 121,
+  "protein": 6.7,
+  "carbs": 8.8,
+  "fat": 6.7,
+  "fiber": 1.7,
+  "sugar": 2.3,
+  "sodium": 418.0,
+  "cholesterol": 175.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707191",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "frybread": {
+  "kcal": 309,
+  "protein": 8.4,
+  "carbs": 46.0,
+  "fat": 10.1,
+  "fiber": 1.7,
+  "sugar": 1.5,
+  "sodium": 671.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "167655",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "salt water taffy": {
+  "kcal": 390,
+  "protein": 0.2,
+  "carbs": 87.9,
+  "fat": 4.1,
+  "fiber": 0.0,
+  "sugar": 73.5,
+  "sodium": 6.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710369",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "submarine sandwich": {
+  "kcal": 151,
+  "protein": 9.1,
+  "carbs": 22.9,
+  "fat": 2.5,
+  "fiber": 1.3,
+  "sugar": 3.5,
+  "sodium": 396.0,
+  "cholesterol": 12.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170707",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "lebanon bologna": {
+  "kcal": 172,
+  "protein": 19.0,
+  "carbs": 0.4,
+  "fat": 10.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 1370.0,
+  "cholesterol": 55.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "173868",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "linzer torte": {
+  "kcal": 241,
+  "protein": 3.3,
+  "carbs": 33.9,
+  "fat": 10.4,
+  "fiber": 0.9,
+  "sugar": 19.1,
+  "sodium": 273.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707888",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sweet and sour pork": {
+  "kcal": 260,
+  "protein": 8.9,
+  "carbs": 25.5,
+  "fat": 13.6,
+  "fiber": 1.0,
+  "sugar": 10.3,
+  "sodium": 304.0,
+  "cholesterol": 24.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706401",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bisque": {
+  "kcal": 75,
+  "protein": 2.3,
+  "carbs": 5.9,
+  "fat": 4.8,
+  "fiber": 0.9,
+  "sugar": 1.9,
+  "sodium": 239.0,
+  "cholesterol": 22.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707140",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "wrap": {
+  "kcal": 232,
+  "protein": 12.8,
+  "carbs": 23.3,
+  "fat": 9.4,
+  "fiber": 1.5,
+  "sugar": 2.4,
+  "sodium": 792.0,
+  "cholesterol": 34.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706881",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "puri": {
+  "kcal": 409,
+  "protein": 6.8,
+  "carbs": 39.2,
+  "fat": 24.9,
+  "fiber": 3.5,
+  "sugar": 0.2,
+  "sodium": 170.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707714",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "beef bourguignon": {
+  "kcal": 148,
+  "protein": 18.5,
+  "carbs": 4.2,
+  "fat": 6.0,
+  "fiber": 0.8,
+  "sugar": 1.4,
+  "sodium": 369.0,
+  "cholesterol": 52.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706371",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sushi": {
+  "kcal": 94,
+  "protein": 2.9,
+  "carbs": 18.4,
+  "fat": 0.7,
+  "fiber": 1.0,
+  "sugar": 2.1,
+  "sodium": 428.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708959",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "creamed corn": {
+  "kcal": 72,
+  "protein": 1.7,
+  "carbs": 18.1,
+  "fat": 0.4,
+  "fiber": 1.2,
+  "sugar": 3.2,
+  "sodium": 261.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709923",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "mozzarella sticks": {
+  "kcal": 325,
+  "protein": 14.8,
+  "carbs": 25.1,
+  "fat": 18.3,
+  "fiber": 2.0,
+  "sugar": 2.4,
+  "sodium": 861.0,
+  "cholesterol": 36.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705817",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "red beans and rice": {
+  "kcal": 162,
+  "protein": 7.5,
+  "carbs": 23.5,
+  "fat": 4.2,
+  "fiber": 4.4,
+  "sugar": 0.2,
+  "sodium": 263.0,
+  "cholesterol": 6.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708992",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "hyderabadi biryani": {
+  "kcal": 145,
+  "protein": 8.5,
+  "carbs": 12.2,
+  "fat": 6.8,
+  "fiber": 1.0,
+  "sugar": 1.7,
+  "sodium": 98.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706490",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "michigan hot dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706166",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "vichyssoise": {
+  "kcal": 90,
+  "protein": 1.5,
+  "carbs": 10.5,
+  "fat": 4.7,
+  "fiber": 1.2,
+  "sugar": 1.0,
+  "sodium": 240.0,
+  "cholesterol": 12.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709556",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "maxwell street polish": {
+  "kcal": 337,
+  "protein": 12.4,
+  "carbs": 5.0,
+  "fat": 29.7,
+  "fiber": 0.0,
+  "sugar": 2.4,
+  "sodium": 1062.0,
+  "cholesterol": 73.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706188",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "coney island hot dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706166",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "boston cream pie": {
+  "kcal": 252,
+  "protein": 2.4,
+  "carbs": 42.9,
+  "fat": 8.5,
+  "fiber": 1.4,
+  "sugar": 36.1,
+  "sodium": 254.0,
+  "cholesterol": 37.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707858",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "white boiled shrimp": {
+  "kcal": 90,
+  "protein": 17.2,
+  "carbs": 1.1,
+  "fat": 1.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 248.0,
+  "cholesterol": 159.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706363",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "haupia": {
+  "kcal": 274,
+  "protein": 2.0,
+  "carbs": 23.5,
+  "fat": 20.4,
+  "fiber": 2.0,
+  "sugar": 14.7,
+  "sodium": 83.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710316",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "rye bread": {
+  "kcal": 259,
+  "protein": 8.5,
+  "carbs": 48.3,
+  "fat": 3.3,
+  "fiber": 5.8,
+  "sugar": 3.9,
+  "sodium": 570.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707755",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "barfi": {
+  "kcal": 284,
+  "protein": 5.4,
+  "carbs": 40.4,
+  "fat": 11.4,
+  "fiber": 0.4,
+  "sugar": 37.0,
+  "sodium": 71.0,
+  "cholesterol": 35.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705700",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "mulligan stew": {
+  "kcal": 107,
+  "protein": 8.8,
+  "carbs": 6.3,
+  "fat": 5.1,
+  "fiber": 1.3,
+  "sugar": 1.6,
+  "sodium": 307.0,
+  "cholesterol": 27.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706592",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "banana pudding": {
+  "kcal": 160,
+  "protein": 2.6,
+  "carbs": 28.0,
+  "fat": 4.3,
+  "fiber": 0.7,
+  "sugar": 19.7,
+  "sodium": 128.0,
+  "cholesterol": 38.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705697",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "crab cake": {
+  "kcal": 214,
+  "protein": 14.4,
+  "carbs": 4.5,
+  "fat": 15.0,
+  "fiber": 0.3,
+  "sugar": 0.7,
+  "sodium": 430.0,
+  "cholesterol": 114.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706549",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sausage gravy": {
+  "kcal": 180,
+  "protein": 6.8,
+  "carbs": 7.7,
+  "fat": 13.6,
+  "fiber": 0.1,
+  "sugar": 3.9,
+  "sodium": 421.0,
+  "cholesterol": 36.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706406",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "ice cream cake": {
+  "kcal": 283,
+  "protein": 3.0,
+  "carbs": 39.3,
+  "fat": 12.7,
+  "fiber": 0.5,
+  "sugar": 31.2,
+  "sodium": 196.0,
+  "cholesterol": 44.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707877",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "swiss steak": {
+  "kcal": 115,
+  "protein": 15.5,
+  "carbs": 3.7,
+  "fat": 4.4,
+  "fiber": 0.9,
+  "sugar": 1.2,
+  "sodium": 250.0,
+  "cholesterol": 38.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706732",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "parmigiana": {
+  "kcal": 204,
+  "protein": 15.3,
+  "carbs": 8.3,
+  "fat": 11.9,
+  "fiber": 0.8,
+  "sugar": 1.7,
+  "sodium": 436.0,
+  "cholesterol": 67.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706417",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tetrazzini": {
+  "kcal": 119,
+  "protein": 12.0,
+  "carbs": 7.0,
+  "fat": 4.8,
+  "fiber": 0.5,
+  "sugar": 0.2,
+  "sodium": 386.0,
+  "cholesterol": 38.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706534",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "squid": {
+  "kcal": 92,
+  "protein": 15.6,
+  "carbs": 3.1,
+  "fat": 1.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 44.0,
+  "cholesterol": 233.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174223",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "palak paneer": {
+  "kcal": 101,
+  "protein": 5.4,
+  "carbs": 4.3,
+  "fat": 7.0,
+  "fiber": 0.9,
+  "sugar": 1.9,
+  "sodium": 242.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709631",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pork and beans": {
+  "kcal": 105,
+  "protein": 4.5,
+  "carbs": 21.6,
+  "fat": 0.9,
+  "fiber": 4.4,
+  "sugar": 8.2,
+  "sodium": 391.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707406",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "nian gao": {
+  "kcal": 279,
+  "protein": 2.5,
+  "carbs": 53.6,
+  "fat": 6.5,
+  "fiber": 0.7,
+  "sugar": 31.1,
+  "sodium": 36.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708345",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "oysters rockefeller": {
+  "kcal": 134,
+  "protein": 7.6,
+  "carbs": 9.4,
+  "fat": 7.5,
+  "fiber": 1.9,
+  "sugar": 1.2,
+  "sodium": 430.0,
+  "cholesterol": 36.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706849",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "taquito": {
+  "kcal": 269,
+  "protein": 12.5,
+  "carbs": 31.6,
+  "fat": 10.4,
+  "fiber": 3.3,
+  "sugar": 1.6,
+  "sodium": 491.0,
+  "cholesterol": 34.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708601",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "egg drop soup": {
+  "kcal": 27,
+  "protein": 1.2,
+  "carbs": 4.3,
+  "fat": 0.6,
+  "fiber": 0.4,
+  "sugar": 0.1,
+  "sodium": 370.0,
+  "cholesterol": 23.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707282",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "stromboli": {
+  "kcal": 343,
+  "protein": 14.8,
+  "carbs": 31.3,
+  "fat": 17.7,
+  "fiber": 1.4,
+  "sugar": 0.6,
+  "sodium": 434.0,
+  "cholesterol": 46.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708685",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "dirty rice": {
+  "kcal": 112,
+  "protein": 5.1,
+  "carbs": 17.2,
+  "fat": 2.2,
+  "fiber": 0.6,
+  "sugar": 0.9,
+  "sodium": 316.0,
+  "cholesterol": 53.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709078",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "unagi": {
+  "kcal": 126,
+  "protein": 7.6,
+  "carbs": 13.4,
+  "fat": 4.2,
+  "fiber": 0.6,
+  "sugar": 0.8,
+  "sodium": 308.0,
+  "cholesterol": 44.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708968",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "green curry": {
+  "kcal": 107,
+  "protein": 6.5,
+  "carbs": 6.5,
+  "fat": 6.5,
+  "fiber": 1.4,
+  "sugar": 2.6,
+  "sodium": 376.0,
+  "cholesterol": 22.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706437",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "lo mein": {
+  "kcal": 121,
+  "protein": 4.8,
+  "carbs": 20.2,
+  "fat": 2.4,
+  "fiber": 1.3,
+  "sugar": 2.6,
+  "sodium": 430.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708798",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried pie": {
+  "kcal": 316,
+  "protein": 3.0,
+  "carbs": 42.6,
+  "fat": 16.1,
+  "fiber": 2.6,
+  "sugar": 21.4,
+  "sodium": 333.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "172784",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "spanish rice": {
+  "kcal": 101,
+  "protein": 2.9,
+  "carbs": 19.9,
+  "fat": 1.0,
+  "fiber": 1.1,
+  "sugar": 1.6,
+  "sodium": 314.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709086",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "massaman curry": {
+  "kcal": 107,
+  "protein": 6.5,
+  "carbs": 6.5,
+  "fat": 6.5,
+  "fiber": 1.4,
+  "sugar": 2.6,
+  "sodium": 376.0,
+  "cholesterol": 22.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706437",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "beef chow fun": {
+  "kcal": 102,
+  "protein": 7.1,
+  "carbs": 11.5,
+  "fat": 2.7,
+  "fiber": 0.9,
+  "sugar": 1.1,
+  "sodium": 162.0,
+  "cholesterol": 17.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708796",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "carnitas": {
+  "kcal": 271,
+  "protein": 24.6,
+  "carbs": 0.0,
+  "fat": 18.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 440.0,
+  "cholesterol": 96.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705864",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "biscuits and gravy": {
+  "kcal": 224,
+  "protein": 6.2,
+  "carbs": 17.0,
+  "fat": 14.7,
+  "fiber": 0.8,
+  "sugar": 3.9,
+  "sodium": 451.0,
+  "cholesterol": 16.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708744",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "moo shu pork": {
+  "kcal": 153,
+  "protein": 10.4,
+  "carbs": 4.0,
+  "fat": 10.7,
+  "fiber": 0.9,
+  "sugar": 1.8,
+  "sodium": 815.0,
+  "cholesterol": 100.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706764",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "ramen": {
+  "kcal": 137,
+  "protein": 6.8,
+  "carbs": 15.4,
+  "fat": 5.2,
+  "fiber": 1.0,
+  "sugar": 0.4,
+  "sodium": 353.0,
+  "cholesterol": 13.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709154",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "home fries": {
+  "kcal": 197,
+  "protein": 1.9,
+  "carbs": 18.4,
+  "fat": 13.0,
+  "fiber": 1.6,
+  "sugar": 1.2,
+  "sodium": 340.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709472",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "clam cake": {
+  "kcal": 246,
+  "protein": 19.0,
+  "carbs": 6.8,
+  "fat": 15.3,
+  "fiber": 0.2,
+  "sugar": 0.5,
+  "sodium": 408.0,
+  "cholesterol": 80.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706561",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fish head curry": {
+  "kcal": 93,
+  "protein": 4.9,
+  "carbs": 6.7,
+  "fat": 5.4,
+  "fiber": 1.4,
+  "sugar": 2.6,
+  "sodium": 351.0,
+  "cholesterol": 23.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706460",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pizza bagel": {
+  "kcal": 264,
+  "protein": 10.6,
+  "carbs": 52.4,
+  "fat": 1.3,
+  "fiber": 1.6,
+  "sugar": 8.4,
+  "sodium": 422.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707684",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tteok": {
+  "kcal": 279,
+  "protein": 2.5,
+  "carbs": 53.6,
+  "fat": 6.5,
+  "fiber": 0.7,
+  "sugar": 31.1,
+  "sodium": 36.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708345",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "oxtail stew": {
+  "kcal": 107,
+  "protein": 8.8,
+  "carbs": 6.3,
+  "fat": 5.1,
+  "fiber": 1.3,
+  "sugar": 1.6,
+  "sodium": 307.0,
+  "cholesterol": 27.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706592",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried shrimp": {
+  "kcal": 218,
+  "protein": 12.3,
+  "carbs": 12.4,
+  "fat": 12.9,
+  "fiber": 0.5,
+  "sugar": 0.2,
+  "sodium": 434.0,
+  "cholesterol": 102.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706364",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "okinawa soba": {
+  "kcal": 99,
+  "protein": 5.1,
+  "carbs": 21.4,
+  "fat": 0.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 60.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "168907",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "yangzhou fried rice": {
+  "kcal": 174,
+  "protein": 3.8,
+  "carbs": 32.5,
+  "fat": 3.2,
+  "fiber": 1.1,
+  "sugar": 0.6,
+  "sodium": 361.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708952",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chicken à la king": {
+  "kcal": 187,
+  "protein": 9.4,
+  "carbs": 6.8,
+  "fat": 13.8,
+  "fiber": 0.6,
+  "sugar": 2.6,
+  "sodium": 428.0,
+  "cholesterol": 79.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706787",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "croquette": {
+  "kcal": 262,
+  "protein": 20.8,
+  "carbs": 2.6,
+  "fat": 18.8,
+  "fiber": 0.2,
+  "sugar": 0.5,
+  "sodium": 575.0,
+  "cholesterol": 125.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706545",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "angel food cake": {
+  "kcal": 257,
+  "protein": 6.1,
+  "carbs": 58.7,
+  "fat": 0.3,
+  "fiber": 0.2,
+  "sugar": 30.5,
+  "sodium": 511.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707854",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "mortadella": {
+  "kcal": 311,
+  "protein": 16.4,
+  "carbs": 3.0,
+  "fat": 25.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "sodium": 1246.0,
+  "cholesterol": 56.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706182",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fried green tomatoes": {
+  "kcal": 216,
+  "protein": 3.7,
+  "carbs": 21.8,
+  "fat": 12.8,
+  "fiber": 1.3,
+  "sugar": 1.6,
+  "sodium": 317.0,
+  "cholesterol": 11.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709725",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "hamburger": {
+  "kcal": 288,
+  "protein": 17.5,
+  "carbs": 20.7,
+  "fat": 14.4,
+  "fiber": 0.7,
+  "sugar": 3.0,
+  "sodium": 355.0,
+  "cholesterol": 49.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706920",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chili dog": {
+  "kcal": 215,
+  "protein": 10.3,
+  "carbs": 14.7,
+  "fat": 12.8,
+  "fiber": 2.4,
+  "sugar": 2.1,
+  "sodium": 551.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707081",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chowder": {
+  "kcal": 93,
+  "protein": 3.1,
+  "carbs": 9.2,
+  "fat": 4.8,
+  "fiber": 1.0,
+  "sugar": 0.9,
+  "sodium": 247.0,
+  "cholesterol": 16.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707139",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pea soup": {
+  "kcal": 61,
+  "protein": 3.5,
+  "carbs": 10.6,
+  "fat": 0.7,
+  "fiber": 3.8,
+  "sugar": 2.2,
+  "sodium": 244.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707459",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "ambrosia": {
+  "kcal": 75,
+  "protein": 0.8,
+  "carbs": 16.4,
+  "fat": 1.0,
+  "fiber": 2.0,
+  "sugar": 12.8,
+  "sodium": 1.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709286",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "mince pie": {
+  "kcal": 289,
+  "protein": 2.6,
+  "carbs": 48.0,
+  "fat": 10.8,
+  "fiber": 2.6,
+  "sugar": 28.3,
+  "sodium": 254.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "175019",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "picadillo": {
+  "kcal": 278,
+  "protein": 13.8,
+  "carbs": 3.8,
+  "fat": 22.8,
+  "fiber": 0.9,
+  "sugar": 1.8,
+  "sodium": 868.0,
+  "cholesterol": 49.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706396",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "paella": {
+  "kcal": 169,
+  "protein": 9.5,
+  "carbs": 15.8,
+  "fat": 7.2,
+  "fiber": 0.6,
+  "sugar": 0.7,
+  "sodium": 737.0,
+  "cholesterol": 33.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706723",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sesame chicken": {
+  "kcal": 293,
+  "protein": 14.3,
+  "carbs": 26.9,
+  "fat": 14.2,
+  "fiber": 0.7,
+  "sugar": 16.0,
+  "sodium": 482.0,
+  "cholesterol": 59.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706444",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "spoonbread": {
+  "kcal": 166,
+  "protein": 6.7,
+  "carbs": 18.6,
+  "fat": 7.1,
+  "fiber": 0.7,
+  "sugar": 4.8,
+  "sodium": 382.0,
+  "cholesterol": 86.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707821",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "namasu": {
+  "kcal": 56,
+  "protein": 0.5,
+  "carbs": 12.2,
+  "fat": 0.2,
+  "fiber": 0.6,
+  "sugar": 10.8,
+  "sodium": 120.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709818",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "wonton noodles": {
+  "kcal": 32,
+  "protein": 2.1,
+  "carbs": 5.2,
+  "fat": 0.3,
+  "fiber": 0.2,
+  "sugar": 0.3,
+  "sodium": 406.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "171821",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "johnnycake": {
+  "kcal": 277,
+  "protein": 8.0,
+  "carbs": 43.8,
+  "fat": 7.5,
+  "fiber": 1.8,
+  "sugar": 9.1,
+  "sodium": 871.0,
+  "cholesterol": 71.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707820",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "fortune cookie": {
+  "kcal": 378,
+  "protein": 4.2,
+  "carbs": 84.0,
+  "fat": 2.7,
+  "fiber": 1.6,
+  "sugar": 45.4,
+  "sodium": 31.0,
+  "cholesterol": 2.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707930",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "enchilada": {
+  "kcal": 178,
+  "protein": 10.0,
+  "carbs": 14.6,
+  "fat": 9.0,
+  "fiber": 2.3,
+  "sugar": 0.8,
+  "sodium": 459.0,
+  "cholesterol": 33.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708565",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "coconut cake": {
+  "kcal": 368,
+  "protein": 2.5,
+  "carbs": 54.5,
+  "fat": 15.7,
+  "fiber": 1.3,
+  "sugar": 40.6,
+  "sodium": 311.0,
+  "cholesterol": 39.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707860",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "green bean casserole": {
+  "kcal": 56,
+  "protein": 2.0,
+  "carbs": 7.0,
+  "fat": 2.2,
+  "fiber": 1.9,
+  "sugar": 2.0,
+  "sodium": 316.0,
+  "cholesterol": 1.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710040",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "soybean sprout": {
+  "kcal": 122,
+  "protein": 13.1,
+  "carbs": 9.6,
+  "fat": 6.7,
+  "fiber": 1.1,
+  "sugar": 0.0,
+  "sodium": 14.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169284",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "italian hot dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706166",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "blueberry pie": {
+  "kcal": 300,
+  "protein": 2.8,
+  "carbs": 38.0,
+  "fat": 15.5,
+  "fiber": 2.5,
+  "sugar": 15.5,
+  "sodium": 217.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707998",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pickled cucumber": {
+  "kcal": 11,
+  "protein": 0.3,
+  "carbs": 2.3,
+  "fat": 0.2,
+  "fiber": 1.2,
+  "sugar": 1.1,
+  "sodium": 1210.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "169379",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "thai fried rice": {
+  "kcal": 178,
+  "protein": 7.9,
+  "carbs": 27.6,
+  "fat": 4.1,
+  "fiber": 0.9,
+  "sugar": 0.5,
+  "sodium": 313.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708955",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "bolillo": {
+  "kcal": 318,
+  "protein": 10.7,
+  "carbs": 55.8,
+  "fat": 5.8,
+  "fiber": 2.2,
+  "sugar": 3.5,
+  "sodium": 506.0,
+  "cholesterol": 1.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707664",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sweet potato pie": {
+  "kcal": 269,
+  "protein": 5.0,
+  "carbs": 41.1,
+  "fat": 9.8,
+  "fiber": 1.3,
+  "sugar": 25.2,
+  "sodium": 269.0,
+  "cholesterol": 47.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708012",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "baklava": {
+  "kcal": 440,
+  "protein": 6.6,
+  "carbs": 37.5,
+  "fat": 29.3,
+  "fiber": 2.5,
+  "sugar": 12.8,
+  "sodium": 311.0,
+  "cholesterol": 48.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708044",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "protein bar": {
+  "kcal": 412,
+  "protein": 30.3,
+  "carbs": 38.4,
+  "fat": 15.2,
+  "fiber": 7.3,
+  "sugar": 15.2,
+  "sodium": 436.0,
+  "cholesterol": 3.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "173158",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "cordon bleu": {
+  "kcal": 210,
+  "protein": 22.6,
+  "carbs": 9.3,
+  "fat": 9.2,
+  "fiber": 0.6,
+  "sugar": 0.6,
+  "sodium": 589.0,
+  "cholesterol": 85.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706441",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "aloo paratha": {
+  "kcal": 326,
+  "protein": 6.4,
+  "carbs": 45.4,
+  "fat": 13.2,
+  "fiber": 9.6,
+  "sugar": 4.2,
+  "sodium": 452.0,
+  "cholesterol": 1.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707715",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "trifle": {
+  "kcal": 169,
+  "protein": 3.5,
+  "carbs": 23.2,
+  "fat": 7.2,
+  "fiber": 0.4,
+  "sugar": 15.8,
+  "sodium": 180.0,
+  "cholesterol": 65.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705701",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "peanut butter cookie": {
+  "kcal": 473,
+  "protein": 8.9,
+  "carbs": 58.1,
+  "fat": 23.8,
+  "fiber": 2.1,
+  "sugar": 28.6,
+  "sodium": 463.0,
+  "cholesterol": 27.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707952",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pasta salad": {
+  "kcal": 246,
+  "protein": 6.9,
+  "carbs": 21.8,
+  "fat": 14.4,
+  "fiber": 1.3,
+  "sugar": 1.7,
+  "sodium": 262.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708947",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "caramel": {
+  "kcal": 384,
+  "protein": 3.1,
+  "carbs": 82.4,
+  "fat": 5.7,
+  "fiber": 0.0,
+  "sugar": 60.9,
+  "sodium": 144.0,
+  "cholesterol": 4.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2710354",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "tamale": {
+  "kcal": 174,
+  "protein": 7.4,
+  "carbs": 15.8,
+  "fat": 9.0,
+  "fiber": 2.4,
+  "sugar": 0.5,
+  "sodium": 473.0,
+  "cholesterol": 20.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708570",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "seattle-style hot dog": {
+  "kcal": 310,
+  "protein": 11.7,
+  "carbs": 2.9,
+  "fat": 28.0,
+  "fiber": 0.0,
+  "sugar": 1.3,
+  "sodium": 828.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706166",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "boston baked beans": {
+  "kcal": 105,
+  "protein": 4.5,
+  "carbs": 21.6,
+  "fat": 0.9,
+  "fiber": 4.4,
+  "sugar": 8.2,
+  "sodium": 391.0,
+  "cholesterol": 7.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707390",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "paneer tikka": {
+  "kcal": 299,
+  "protein": 15.9,
+  "carbs": 22.5,
+  "fat": 15.5,
+  "fiber": 0.0,
+  "sugar": 23.3,
+  "sodium": 185.0,
+  "cholesterol": 58.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2705740",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "shaker lemon pie": {
+  "kcal": 280,
+  "protein": 2.4,
+  "carbs": 31.5,
+  "fat": 16.2,
+  "fiber": 0.7,
+  "sugar": 18.4,
+  "sodium": 169.0,
+  "cholesterol": 26.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708000",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "ceviche": {
+  "kcal": 63,
+  "protein": 10.5,
+  "carbs": 3.6,
+  "fat": 0.8,
+  "fiber": 0.5,
+  "sugar": 1.3,
+  "sodium": 149.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706463",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "hummus": {
+  "kcal": 237,
+  "protein": 7.8,
+  "carbs": 15.0,
+  "fat": 17.8,
+  "fiber": 5.5,
+  "sugar": 0.6,
+  "sodium": 426.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "174289",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chocolate chip cookie": {
+  "kcal": 492,
+  "protein": 5.1,
+  "carbs": 65.4,
+  "fat": 24.7,
+  "fiber": 2.0,
+  "sugar": 32.9,
+  "sodium": 311.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707909",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "sausage": {
+  "kcal": 325,
+  "protein": 18.5,
+  "carbs": 1.4,
+  "fat": 27.2,
+  "fiber": 0.0,
+  "sugar": 1.1,
+  "sodium": 814.0,
+  "cholesterol": 86.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706191",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "senate bean soup": {
+  "kcal": 67,
+  "protein": 3.8,
+  "carbs": 11.6,
+  "fat": 0.8,
+  "fiber": 4.0,
+  "sugar": 1.1,
+  "sodium": 244.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707453",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "blt": {
+  "kcal": 205,
+  "protein": 10.1,
+  "carbs": 26.7,
+  "fat": 6.4,
+  "fiber": 1.6,
+  "sugar": 3.6,
+  "sodium": 354.0,
+  "cholesterol": 13.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "170313",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pico de gallo": {
+  "kcal": 17,
+  "protein": 0.7,
+  "carbs": 3.7,
+  "fat": 0.1,
+  "fiber": 1.1,
+  "sugar": 2.1,
+  "sodium": 443.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2709737",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "chilaquiles": {
+  "kcal": 195,
+  "protein": 10.6,
+  "carbs": 14.9,
+  "fat": 10.7,
+  "fiber": 2.1,
+  "sugar": 1.1,
+  "sodium": 366.0,
+  "cholesterol": 141.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708505",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "rice and gravy": {
+  "kcal": 137,
+  "protein": 6.3,
+  "carbs": 16.0,
+  "fat": 5.1,
+  "fiber": 0.2,
+  "sugar": 0.1,
+  "sodium": 315.0,
+  "cholesterol": 15.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2706493",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "peanut soup": {
+  "kcal": 88,
+  "protein": 3.2,
+  "carbs": 8.4,
+  "fat": 5.3,
+  "fiber": 1.7,
+  "sugar": 2.6,
+  "sodium": 246.0,
+  "cholesterol": 0.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707547",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "pan dulce": {
+  "kcal": 371,
+  "protein": 9.1,
+  "carbs": 56.4,
+  "fat": 12.2,
+  "fiber": 2.2,
+  "sugar": 14.1,
+  "sodium": 231.0,
+  "cholesterol": 29.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2707669",
+  "servingG": 100.0,
+  "reviewed": true
+ },
+ "hokkien fried rice": {
+  "kcal": 174,
+  "protein": 3.8,
+  "carbs": 32.5,
+  "fat": 3.2,
+  "fiber": 1.1,
+  "sugar": 0.6,
+  "sodium": 361.0,
+  "cholesterol": 18.0,
+  "serving": "100 g",
+  "source": "USDA FoodData Central",
+  "sourceId": "2708952",
+  "servingG": 100.0,
+  "reviewed": true
+ },
  "mango sticky rice": {
   "kcal": 360,
   "protein": 8,
@@ -8,7 +5078,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ayam masak merah": {
   "kcal": 290,
@@ -19,7 +5091,9 @@
   "sugar": 3,
   "sodium": 600,
   "cholesterol": 95,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "palóc soup": {
   "kcal": 130,
@@ -30,7 +5104,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "pastel azteca": {
   "kcal": 240,
@@ -41,7 +5117,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lady baltimore cake": {
   "kcal": 240,
@@ -52,7 +5130,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hainanese curry rice": {
   "kcal": 360,
@@ -63,7 +5143,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "afghani burger": {
   "kcal": 240,
@@ -74,18 +5156,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "roast beef sandwich": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "roti jala": {
   "kcal": 240,
@@ -96,7 +5169,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "dirty macaroni": {
   "kcal": 420,
@@ -107,18 +5182,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "garlic butter shrimp": {
-  "kcal": 190,
-  "protein": 22,
-  "carbs": 7,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 700,
-  "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "bey's soup": {
   "kcal": 130,
@@ -129,18 +5195,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "portuguese seafood rice": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tahu tek-tek": {
   "kcal": 190,
@@ -151,7 +5208,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "squid tongseng": {
   "kcal": 310,
@@ -162,18 +5221,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
- },
- "jókai bean soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "bookbinder soup": {
   "kcal": 130,
@@ -184,7 +5234,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sago soup": {
   "kcal": 130,
@@ -195,7 +5247,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "shrimp and grits": {
   "kcal": 190,
@@ -206,7 +5260,9 @@
   "sugar": 2,
   "sodium": 700,
   "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "squid lū'au": {
   "kcal": 190,
@@ -217,7 +5273,9 @@
   "sugar": 2,
   "sodium": 700,
   "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "shrimp louie": {
   "kcal": 190,
@@ -228,7 +5286,9 @@
   "sugar": 2,
   "sodium": 700,
   "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "black pudding": {
   "kcal": 240,
@@ -239,7 +5299,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "cherry kebab": {
   "kcal": 280,
@@ -250,7 +5312,9 @@
   "sugar": 5,
   "sodium": 650,
   "cholesterol": 75,
-  "serving": "5 tusuk (120 g)"
+  "serving": "5 tusuk (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sabich salad": {
   "kcal": 200,
@@ -261,7 +5325,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "mie kocok": {
   "kcal": 420,
@@ -272,7 +5338,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi tumpang": {
   "kcal": 360,
@@ -283,7 +5351,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ayam goreng": {
   "kcal": 290,
@@ -294,7 +5364,9 @@
   "sugar": 3,
   "sodium": 600,
   "cholesterol": 95,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "pecel lele": {
   "kcal": 210,
@@ -305,7 +5377,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lettuce soup": {
   "kcal": 130,
@@ -316,7 +5390,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "pork blood soup": {
   "kcal": 130,
@@ -327,7 +5403,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "boat noodles": {
   "kcal": 420,
@@ -338,7 +5416,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "mie kangkung": {
   "kcal": 420,
@@ -349,29 +5429,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "miso soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "tempura": {
-  "kcal": 260,
-  "protein": 8,
-  "carbs": 26,
-  "fat": 14,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 porsi (80 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chips and dip": {
   "kcal": 60,
@@ -382,7 +5442,9 @@
   "sugar": 3,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "2 sdm (30 g)"
+  "serving": "2 sdm (30 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "mutton curry": {
   "kcal": 310,
@@ -393,7 +5455,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "omelette": {
   "kcal": 200,
@@ -404,7 +5468,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "cucumber soup": {
   "kcal": 130,
@@ -415,7 +5481,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "meatball": {
   "kcal": 300,
@@ -426,29 +5494,9 @@
   "sugar": 3,
   "sodium": 850,
   "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
- },
- "waldorf salad": {
-  "kcal": 200,
-  "protein": 8,
-  "carbs": 20,
-  "fat": 11,
-  "fiber": 5,
-  "sugar": 8,
-  "sodium": 500,
-  "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
- },
- "potato salad": {
-  "kcal": 200,
-  "protein": 8,
-  "carbs": 20,
-  "fat": 11,
-  "fiber": 5,
-  "sugar": 8,
-  "sodium": 500,
-  "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "satay": {
   "kcal": 280,
@@ -459,7 +5507,9 @@
   "sugar": 5,
   "sodium": 650,
   "cholesterol": 75,
-  "serving": "5 tusuk (120 g)"
+  "serving": "5 tusuk (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "waffle": {
   "kcal": 240,
@@ -470,7 +5520,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "pancake": {
   "kcal": 240,
@@ -481,18 +5533,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "roast beef": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "fried chicken": {
   "kcal": 290,
@@ -503,18 +5546,9 @@
   "sugar": 3,
   "sodium": 600,
   "cholesterol": 95,
-  "serving": "1 potong (120 g)"
- },
- "chicken fried steak": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "gulai": {
   "kcal": 310,
@@ -525,18 +5559,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
- },
- "pound cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi lemak": {
   "kcal": 360,
@@ -547,7 +5572,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "draw soup": {
   "kcal": 130,
@@ -558,7 +5585,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "she-crab soup": {
   "kcal": 130,
@@ -569,7 +5598,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "enormous omelet sandwich": {
   "kcal": 200,
@@ -580,7 +5611,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "figgy pudding": {
   "kcal": 240,
@@ -591,18 +5624,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "corn pudding": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "silver needle noodles": {
   "kcal": 420,
@@ -613,7 +5637,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "shrimp dejonghe": {
   "kcal": 190,
@@ -624,7 +5650,9 @@
   "sugar": 2,
   "sodium": 700,
   "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "annin tofu": {
   "kcal": 190,
@@ -635,7 +5663,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "black sesame soup": {
   "kcal": 130,
@@ -646,7 +5676,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "doberge cake": {
   "kcal": 240,
@@ -657,7 +5689,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi campur": {
   "kcal": 360,
@@ -668,40 +5702,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
- },
- "snack cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "macaroni and cheese": {
-  "kcal": 420,
-  "protein": 13,
-  "carbs": 58,
-  "fat": 15,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 1000,
-  "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "dumpling": {
-  "kcal": 300,
-  "protein": 16,
-  "carbs": 28,
-  "fat": 14,
-  "fiber": 2,
-  "sugar": 3,
-  "sodium": 850,
-  "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "king cake": {
   "kcal": 240,
@@ -712,29 +5715,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "chicken nugget": {
-  "kcal": 260,
-  "protein": 8,
-  "carbs": 26,
-  "fat": 14,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 porsi (80 g)"
- },
- "eggs benedict": {
-  "kcal": 200,
-  "protein": 13,
-  "carbs": 4,
-  "fat": 15,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 450,
-  "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hot dry noodles": {
   "kcal": 420,
@@ -745,7 +5728,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ketupat": {
   "kcal": 210,
@@ -756,7 +5741,9 @@
   "sugar": 1,
   "sodium": 300,
   "cholesterol": 5,
-  "serving": "1 porsi (150 g)"
+  "serving": "1 porsi (150 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "rendang": {
   "kcal": 350,
@@ -767,7 +5754,9 @@
   "sugar": 3,
   "sodium": 600,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chinese noodles": {
   "kcal": 420,
@@ -778,18 +5767,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "fried rice": {
-  "kcal": 480,
-  "protein": 16,
-  "carbs": 62,
-  "fat": 18,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 900,
-  "cholesterol": 120,
-  "serving": "1 piring (300 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chicago-style pizza": {
   "kcal": 240,
@@ -800,7 +5780,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "devil's food cake": {
   "kcal": 240,
@@ -811,7 +5793,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "burmese tofu": {
   "kcal": 190,
@@ -822,7 +5806,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sour cherry soup": {
   "kcal": 130,
@@ -833,29 +5819,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "chicken curry": {
-  "kcal": 310,
-  "protein": 22,
-  "carbs": 9,
-  "fat": 21,
-  "fiber": 2,
-  "sugar": 3,
-  "sodium": 700,
-  "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
- },
- "shrimp creole": {
-  "kcal": 190,
-  "protein": 22,
-  "carbs": 7,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 700,
-  "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "beef manhattan": {
   "kcal": 300,
@@ -866,7 +5832,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "west slavic fermented cereal soups": {
   "kcal": 130,
@@ -877,7 +5845,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "leek soup": {
   "kcal": 130,
@@ -888,7 +5858,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "oxtail soup": {
   "kcal": 130,
@@ -899,7 +5871,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tofu skin roll": {
   "kcal": 190,
@@ -910,18 +5884,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
- },
- "crispy fried chicken": {
-  "kcal": 290,
-  "protein": 26,
-  "carbs": 8,
-  "fat": 17,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 600,
-  "cholesterol": 95,
-  "serving": "1 potong (120 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "steamed meatball": {
   "kcal": 300,
@@ -932,7 +5897,9 @@
   "sugar": 3,
   "sodium": 850,
   "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "soto": {
   "kcal": 320,
@@ -943,7 +5910,9 @@
   "sugar": 2,
   "sodium": 1000,
   "cholesterol": 70,
-  "serving": "1 mangkuk (350 g)"
+  "serving": "1 mangkuk (350 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "taro dumpling": {
   "kcal": 300,
@@ -954,7 +5923,9 @@
   "sugar": 3,
   "sodium": 850,
   "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "century egg": {
   "kcal": 200,
@@ -965,7 +5936,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "beef noodle soup": {
   "kcal": 420,
@@ -976,7 +5949,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "white rice": {
   "kcal": 360,
@@ -987,7 +5962,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "fish slice": {
   "kcal": 210,
@@ -998,7 +5975,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "beef ball": {
   "kcal": 300,
@@ -1009,7 +5988,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "steak de burgo": {
   "kcal": 300,
@@ -1020,29 +6001,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
- },
- "cottage pudding": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "shrimp roe noodles": {
-  "kcal": 420,
-  "protein": 13,
-  "carbs": 58,
-  "fat": 15,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 1000,
-  "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "oil noodles": {
   "kcal": 420,
@@ -1053,18 +6014,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "funnel cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "red curry": {
   "kcal": 310,
@@ -1075,7 +6027,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ezogelin soup": {
   "kcal": 130,
@@ -1086,18 +6040,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "coconut rice": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "dirt cake": {
   "kcal": 240,
@@ -1108,7 +6053,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sel roti": {
   "kcal": 240,
@@ -1119,7 +6066,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sussex pond pudding": {
   "kcal": 240,
@@ -1130,7 +6079,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lontong": {
   "kcal": 210,
@@ -1141,7 +6092,9 @@
   "sugar": 1,
   "sodium": 300,
   "cholesterol": 5,
-  "serving": "1 porsi (150 g)"
+  "serving": "1 porsi (150 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "gooey butter cake": {
   "kcal": 240,
@@ -1152,7 +6105,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "babi panggang": {
   "kcal": 300,
@@ -1163,7 +6118,9 @@
   "sugar": 4,
   "sodium": 550,
   "cholesterol": 90,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tuna fish sandwich": {
   "kcal": 210,
@@ -1174,7 +6131,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "marry girl cake": {
   "kcal": 240,
@@ -1185,18 +6144,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "french dip": {
-  "kcal": 60,
-  "protein": 1,
-  "carbs": 6,
-  "fat": 4,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 350,
-  "cholesterol": 0,
-  "serving": "2 sdm (30 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "rose hip soup": {
   "kcal": 130,
@@ -1207,29 +6157,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "veggie burger": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "steak tartare": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "michigan salad": {
   "kcal": 200,
@@ -1240,7 +6170,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "cabinet pudding": {
   "kcal": 240,
@@ -1251,29 +6183,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "american fried rice": {
-  "kcal": 480,
-  "protein": 16,
-  "carbs": 62,
-  "fat": 18,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 900,
-  "cholesterol": 120,
-  "serving": "1 piring (300 g)"
- },
- "rice pudding": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sweet potato soup": {
   "kcal": 130,
@@ -1284,18 +6196,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "shark fin soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chantilly cake": {
   "kcal": 240,
@@ -1306,7 +6209,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "russian tea cake": {
   "kcal": 240,
@@ -1317,7 +6222,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "finger steaks": {
   "kcal": 300,
@@ -1328,18 +6235,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
- },
- "steak sandwich": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "st. louis-style pizza": {
   "kcal": 240,
@@ -1350,7 +6248,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "eggs sardou": {
   "kcal": 200,
@@ -1361,7 +6261,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "shanghai fried noodles": {
   "kcal": 420,
@@ -1372,29 +6274,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "beef stroganoff": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
- },
- "tuna casserole": {
-  "kcal": 210,
-  "protein": 24,
-  "carbs": 6,
-  "fat": 10,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 550,
-  "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "cantonese seafood soup": {
   "kcal": 130,
@@ -1405,7 +6287,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "eggplant salad": {
   "kcal": 200,
@@ -1416,7 +6300,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "liver soup": {
   "kcal": 130,
@@ -1427,29 +6313,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "greek salad": {
-  "kcal": 200,
-  "protein": 8,
-  "carbs": 20,
-  "fat": 11,
-  "fiber": 5,
-  "sugar": 8,
-  "sodium": 500,
-  "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
- },
- "red velvet cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "acorn noodle soup": {
   "kcal": 420,
@@ -1460,7 +6326,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "italian beef": {
   "kcal": 300,
@@ -1471,18 +6339,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
- },
- "salisbury steak": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "eggs neptune": {
   "kcal": 200,
@@ -1493,7 +6352,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "jook-sing noodles": {
   "kcal": 420,
@@ -1504,18 +6365,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "german chocolate cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hainanese chicken rice": {
   "kcal": 360,
@@ -1526,18 +6378,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
- },
- "deviled egg": {
-  "kcal": 200,
-  "protein": 13,
-  "carbs": 4,
-  "fat": 15,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 450,
-  "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "macaroni soup": {
   "kcal": 420,
@@ -1548,7 +6391,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "crossing-the-bridge noodles": {
   "kcal": 420,
@@ -1559,7 +6404,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "asam pedas": {
   "kcal": 130,
@@ -1570,7 +6417,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "phanaeng curry": {
   "kcal": 310,
@@ -1581,7 +6430,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "suet pudding": {
   "kcal": 240,
@@ -1592,7 +6443,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tom yum": {
   "kcal": 130,
@@ -1603,29 +6456,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "cobb salad": {
-  "kcal": 200,
-  "protein": 8,
-  "carbs": 20,
-  "fat": 11,
-  "fiber": 5,
-  "sugar": 8,
-  "sodium": 500,
-  "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
- },
- "apple cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "bundt cake": {
   "kcal": 240,
@@ -1636,18 +6469,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "rice krispies treats": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "glorified rice": {
   "kcal": 360,
@@ -1658,7 +6482,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "stinky tofu": {
   "kcal": 190,
@@ -1669,7 +6495,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "soy sauce chicken": {
   "kcal": 60,
@@ -1680,51 +6508,9 @@
   "sugar": 3,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "2 sdm (30 g)"
- },
- "tapioca pudding": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "seven-layer salad": {
-  "kcal": 200,
-  "protein": 8,
-  "carbs": 20,
-  "fat": 11,
-  "fiber": 5,
-  "sugar": 8,
-  "sodium": 500,
-  "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
- },
- "chocolate pudding": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "fried fish": {
-  "kcal": 210,
-  "protein": 24,
-  "carbs": 6,
-  "fat": 10,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 550,
-  "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "2 sdm (30 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "welsh cake": {
   "kcal": 240,
@@ -1735,51 +6521,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "tripe soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "waldorf pudding": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "french onion soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "tres leches cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "spaghetti aglio e olio": {
   "kcal": 420,
@@ -1790,7 +6534,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "gado-gado": {
   "kcal": 200,
@@ -1801,7 +6547,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "snickers salad": {
   "kcal": 200,
@@ -1812,7 +6560,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "stottie cake": {
   "kcal": 240,
@@ -1823,7 +6573,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "dripping cake": {
   "kcal": 240,
@@ -1834,7 +6586,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "cookie salad": {
   "kcal": 200,
@@ -1845,7 +6599,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "beef on weck": {
   "kcal": 300,
@@ -1856,7 +6612,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "alinazik kebab": {
   "kcal": 280,
@@ -1867,18 +6625,9 @@
   "sugar": 5,
   "sodium": 650,
   "cholesterol": 75,
-  "serving": "5 tusuk (120 g)"
- },
- "macaroni salad": {
-  "kcal": 420,
-  "protein": 13,
-  "carbs": 58,
-  "fat": 15,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 1000,
-  "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "5 tusuk (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "luther burger": {
   "kcal": 240,
@@ -1889,7 +6638,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hayashi rice": {
   "kcal": 360,
@@ -1900,7 +6651,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hot milk cake": {
   "kcal": 240,
@@ -1911,7 +6664,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "angel wings": {
   "kcal": 320,
@@ -1922,7 +6677,9 @@
   "sugar": 3,
   "sodium": 650,
   "cholesterol": 100,
-  "serving": "1 porsi (150 g)"
+  "serving": "1 porsi (150 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "caprese salad": {
   "kcal": 200,
@@ -1933,7 +6690,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "kimchi fried rice": {
   "kcal": 480,
@@ -1944,7 +6703,9 @@
   "sugar": 4,
   "sodium": 900,
   "cholesterol": 120,
-  "serving": "1 piring (300 g)"
+  "serving": "1 piring (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tahu goreng": {
   "kcal": 190,
@@ -1955,7 +6716,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "soto ayam": {
   "kcal": 320,
@@ -1966,7 +6729,9 @@
   "sugar": 2,
   "sodium": 1000,
   "cholesterol": 70,
-  "serving": "1 mangkuk (350 g)"
+  "serving": "1 mangkuk (350 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "fish ball": {
   "kcal": 210,
@@ -1977,7 +6742,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hasty pudding": {
   "kcal": 240,
@@ -1988,7 +6755,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "new york-style pizza": {
   "kcal": 240,
@@ -1999,7 +6768,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "new haven-style pizza": {
   "kcal": 240,
@@ -2010,7 +6781,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "california-style pizza": {
   "kcal": 240,
@@ -2021,18 +6794,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "beef bourguignon": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "soup alla canavese": {
   "kcal": 130,
@@ -2043,18 +6807,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "red beans and rice": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "dandan noodles": {
   "kcal": 420,
@@ -2065,7 +6820,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "spaghetti": {
   "kcal": 420,
@@ -2076,7 +6833,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "honey cake": {
   "kcal": 240,
@@ -2087,7 +6846,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "malva pudding": {
   "kcal": 240,
@@ -2098,18 +6859,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "white boiled shrimp": {
-  "kcal": 190,
-  "protein": 22,
-  "carbs": 7,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 700,
-  "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "botok": {
   "kcal": 180,
@@ -2120,7 +6872,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 30,
-  "serving": "1 bungkus (100 g)"
+  "serving": "1 bungkus (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "biangbiang noodles": {
   "kcal": 420,
@@ -2131,29 +6885,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "banana pudding": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "crab cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "curry bread": {
   "kcal": 310,
@@ -2164,7 +6898,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "princess cake": {
   "kcal": 240,
@@ -2175,29 +6911,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "ice cream cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "swiss steak": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "stack cake": {
   "kcal": 240,
@@ -2208,29 +6924,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "squid": {
-  "kcal": 190,
-  "protein": 22,
-  "carbs": 7,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 700,
-  "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
- },
- "egg drop soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "st. honoré cake": {
   "kcal": 240,
@@ -2241,7 +6937,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "barm cake": {
   "kcal": 240,
@@ -2252,7 +6950,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "delmonico steak": {
   "kcal": 300,
@@ -2263,7 +6963,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lung fung soup": {
   "kcal": 130,
@@ -2274,18 +6976,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "dirty rice": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "fisherman's soup": {
   "kcal": 130,
@@ -2296,7 +6989,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lane cake": {
   "kcal": 240,
@@ -2307,7 +7002,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tea egg": {
   "kcal": 200,
@@ -2318,7 +7015,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "japanese curry": {
   "kcal": 310,
@@ -2329,51 +7028,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
- },
- "green curry": {
-  "kcal": 310,
-  "protein": 22,
-  "carbs": 9,
-  "fat": 21,
-  "fiber": 2,
-  "sugar": 3,
-  "sodium": 700,
-  "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
- },
- "spanish rice": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
- },
- "massaman curry": {
-  "kcal": 310,
-  "protein": 22,
-  "carbs": 9,
-  "fat": 21,
-  "fiber": 2,
-  "sugar": 3,
-  "sodium": 700,
-  "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
- },
- "beef chow fun": {
-  "kcal": 300,
-  "protein": 26,
-  "carbs": 6,
-  "fat": 19,
-  "fiber": 1,
-  "sugar": 3,
-  "sodium": 550,
-  "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chinese steamed eggs": {
   "kcal": 200,
@@ -2384,7 +7041,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "oyster omelette": {
   "kcal": 200,
@@ -2395,7 +7054,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "garden salad": {
   "kcal": 200,
@@ -2406,7 +7067,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi liwet": {
   "kcal": 360,
@@ -2417,7 +7080,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "corn crab soup": {
   "kcal": 130,
@@ -2428,7 +7093,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ketoprak": {
   "kcal": 200,
@@ -2439,7 +7106,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tekwan": {
   "kcal": 160,
@@ -2450,7 +7119,9 @@
   "sugar": 2,
   "sodium": 800,
   "cholesterol": 45,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "yin yang fish": {
   "kcal": 210,
@@ -2461,7 +7132,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "boston cream doughnut": {
   "kcal": 240,
@@ -2472,29 +7145,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "ramen": {
-  "kcal": 420,
-  "protein": 13,
-  "carbs": 58,
-  "fat": 15,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 1000,
-  "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "clam cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "charleston red rice": {
   "kcal": 360,
@@ -2505,18 +7158,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
- },
- "fish head curry": {
-  "kcal": 310,
-  "protein": 22,
-  "carbs": 9,
-  "fat": 21,
-  "fiber": 2,
-  "sugar": 3,
-  "sodium": 700,
-  "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "persimmon pudding": {
   "kcal": 240,
@@ -2527,7 +7171,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "zeeuwse bolus": {
   "kcal": 240,
@@ -2538,7 +7184,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "moravian spice cookies": {
   "kcal": 240,
@@ -2549,18 +7197,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "pizza bagel": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tuna pot": {
   "kcal": 210,
@@ -2571,18 +7210,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
- },
- "fried shrimp": {
-  "kcal": 190,
-  "protein": 22,
-  "carbs": 7,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 2,
-  "sodium": 700,
-  "cholesterol": 170,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi bogana": {
   "kcal": 360,
@@ -2593,7 +7223,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "eve's pudding": {
   "kcal": 240,
@@ -2604,7 +7236,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "smyrna meatballs": {
   "kcal": 300,
@@ -2615,18 +7249,9 @@
   "sugar": 3,
   "sodium": 850,
   "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
- },
- "yangzhou fried rice": {
-  "kcal": 480,
-  "protein": 16,
-  "carbs": 62,
-  "fat": 18,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 900,
-  "cholesterol": 120,
-  "serving": "1 piring (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "jollof rice": {
   "kcal": 360,
@@ -2637,7 +7262,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "jello salad": {
   "kcal": 200,
@@ -2648,7 +7275,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "claypot chicken rice": {
   "kcal": 360,
@@ -2659,7 +7288,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sayur lodeh": {
   "kcal": 310,
@@ -2670,7 +7301,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "shami kebab": {
   "kcal": 280,
@@ -2681,7 +7314,9 @@
   "sugar": 5,
   "sodium": 650,
   "cholesterol": 75,
-  "serving": "5 tusuk (120 g)"
+  "serving": "5 tusuk (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chicken and waffles": {
   "kcal": 240,
@@ -2692,7 +7327,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "turtle soup": {
   "kcal": 130,
@@ -2703,7 +7340,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "mango pudding": {
   "kcal": 240,
@@ -2714,18 +7353,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "angel food cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "pastel de nata": {
   "kcal": 240,
@@ -2736,7 +7366,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tipsy cake": {
   "kcal": 240,
@@ -2747,7 +7379,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "creamed eggs on toast": {
   "kcal": 200,
@@ -2758,7 +7392,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "kerak telor": {
   "kcal": 330,
@@ -2769,7 +7405,9 @@
   "sugar": 3,
   "sodium": 450,
   "cholesterol": 230,
-  "serving": "1 porsi (150 g)"
+  "serving": "1 porsi (150 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "rab cake": {
   "kcal": 240,
@@ -2780,7 +7418,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "buffalo burger": {
   "kcal": 240,
@@ -2791,7 +7431,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "spaghetti alle vongole": {
   "kcal": 420,
@@ -2802,29 +7444,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
- },
- "pea soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
- },
- "wonton noodles": {
-  "kcal": 420,
-  "protein": 13,
-  "carbs": 58,
-  "fat": 15,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 1000,
-  "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "pistachio pudding": {
   "kcal": 240,
@@ -2835,18 +7457,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "coconut cake": {
-  "kcal": 240,
-  "protein": 4,
-  "carbs": 38,
-  "fat": 8,
-  "fiber": 1,
-  "sugar": 18,
-  "sodium": 160,
-  "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "apple dumpling": {
   "kcal": 300,
@@ -2857,7 +7470,9 @@
   "sugar": 3,
   "sodium": 850,
   "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "drunken noodles": {
   "kcal": 420,
@@ -2868,7 +7483,9 @@
   "sugar": 4,
   "sodium": 1000,
   "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "bakso": {
   "kcal": 300,
@@ -2879,7 +7496,9 @@
   "sugar": 3,
   "sodium": 850,
   "cholesterol": 50,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ogbono soup": {
   "kcal": 130,
@@ -2890,7 +7509,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi dagang": {
   "kcal": 360,
@@ -2901,18 +7522,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
- },
- "thai fried rice": {
-  "kcal": 480,
-  "protein": 16,
-  "carbs": 62,
-  "fat": 18,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 900,
-  "cholesterol": 120,
-  "serving": "1 piring (300 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "icebox cake": {
   "kcal": 240,
@@ -2923,7 +7535,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sorrel soup": {
   "kcal": 130,
@@ -2934,7 +7548,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "watergate salad": {
   "kcal": 200,
@@ -2945,7 +7561,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "serundeng": {
   "kcal": 60,
@@ -2956,7 +7574,9 @@
   "sugar": 3,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "2 sdm (30 g)"
+  "serving": "2 sdm (30 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "soy egg": {
   "kcal": 200,
@@ -2967,7 +7587,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "press cake": {
   "kcal": 240,
@@ -2978,7 +7600,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "malvern pudding": {
   "kcal": 240,
@@ -2989,7 +7613,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "steak diane": {
   "kcal": 300,
@@ -3000,7 +7626,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sayur asem": {
   "kcal": 130,
@@ -3011,7 +7639,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "konro": {
   "kcal": 320,
@@ -3022,7 +7652,9 @@
   "sugar": 2,
   "sodium": 1000,
   "cholesterol": 70,
-  "serving": "1 mangkuk (350 g)"
+  "serving": "1 mangkuk (350 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "asinan": {
   "kcal": 200,
@@ -3033,7 +7665,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "detroit-style pizza": {
   "kcal": 240,
@@ -3044,7 +7678,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lawar": {
   "kcal": 190,
@@ -3055,7 +7691,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 25,
-  "serving": "1 porsi (120 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "empal gentong": {
   "kcal": 300,
@@ -3066,18 +7704,9 @@
   "sugar": 3,
   "sodium": 550,
   "cholesterol": 85,
-  "serving": "1 porsi (120 g)"
- },
- "pasta salad": {
-  "kcal": 420,
-  "protein": 13,
-  "carbs": 58,
-  "fat": 15,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 1000,
-  "cholesterol": 55,
-  "serving": "1 piring (250 g)"
+  "serving": "1 porsi (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tongseng": {
   "kcal": 310,
@@ -3088,7 +7717,9 @@
   "sugar": 3,
   "sodium": 700,
   "cholesterol": 80,
-  "serving": "1 porsi (200 g)"
+  "serving": "1 porsi (200 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "soto mie": {
   "kcal": 320,
@@ -3099,7 +7730,9 @@
   "sugar": 2,
   "sodium": 1000,
   "cholesterol": 70,
-  "serving": "1 mangkuk (350 g)"
+  "serving": "1 mangkuk (350 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "chili burger": {
   "kcal": 240,
@@ -3110,7 +7743,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tahu sumedang": {
   "kcal": 190,
@@ -3121,7 +7756,9 @@
   "sugar": 2,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "1 porsi (100 g)"
+  "serving": "1 porsi (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "bread soup": {
   "kcal": 130,
@@ -3132,7 +7769,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "tomato and egg soup": {
   "kcal": 130,
@@ -3143,7 +7782,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "duck blood and vermicelli soup": {
   "kcal": 130,
@@ -3154,7 +7795,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "bakwan": {
   "kcal": 130,
@@ -3165,7 +7808,9 @@
   "sugar": 4,
   "sodium": 400,
   "cholesterol": 0,
-  "serving": "1 porsi (150 g)"
+  "serving": "1 porsi (150 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "stir-fried tomato and scrambled eggs": {
   "kcal": 200,
@@ -3176,7 +7821,9 @@
   "sugar": 2,
   "sodium": 450,
   "cholesterol": 300,
-  "serving": "2 butir (100 g)"
+  "serving": "2 butir (100 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "kentucky jam cake": {
   "kcal": 240,
@@ -3187,7 +7834,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "urap": {
   "kcal": 200,
@@ -3198,7 +7847,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "quad city-style pizza": {
   "kcal": 240,
@@ -3209,7 +7860,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "cabbage soup": {
   "kcal": 130,
@@ -3220,7 +7873,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "nasi timbel": {
   "kcal": 360,
@@ -3231,7 +7886,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "hummingbird cake": {
   "kcal": 240,
@@ -3242,7 +7899,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "neapolitan pizza": {
   "kcal": 240,
@@ -3253,7 +7912,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "doughnut": {
   "kcal": 240,
@@ -3264,7 +7925,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "frogeye salad": {
   "kcal": 200,
@@ -3275,18 +7938,9 @@
   "sugar": 8,
   "sodium": 500,
   "cholesterol": 5,
-  "serving": "1 porsi (180 g)"
- },
- "senate bean soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 porsi (180 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "lontong cap go meh": {
   "kcal": 210,
@@ -3297,18 +7951,9 @@
   "sugar": 1,
   "sodium": 300,
   "cholesterol": 5,
-  "serving": "1 porsi (150 g)"
- },
- "rice and gravy": {
-  "kcal": 360,
-  "protein": 8,
-  "carbs": 62,
-  "fat": 9,
-  "fiber": 2,
-  "sugar": 2,
-  "sodium": 500,
-  "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 porsi (150 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "kalu dodol": {
   "kcal": 240,
@@ -3319,18 +7964,9 @@
   "sugar": 18,
   "sodium": 160,
   "cholesterol": 35,
-  "serving": "1 buah (80 g)"
- },
- "peanut soup": {
-  "kcal": 130,
-  "protein": 10,
-  "carbs": 10,
-  "fat": 6,
-  "fiber": 3,
-  "sugar": 3,
-  "sodium": 750,
-  "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 buah (80 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "sambal stingray": {
   "kcal": 60,
@@ -3341,7 +7977,9 @@
   "sugar": 3,
   "sodium": 350,
   "cholesterol": 0,
-  "serving": "2 sdm (30 g)"
+  "serving": "2 sdm (30 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "duck rice": {
   "kcal": 360,
@@ -3352,7 +7990,9 @@
   "sugar": 2,
   "sodium": 500,
   "cholesterol": 30,
-  "serving": "1 piring (250 g)"
+  "serving": "1 piring (250 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "toyga soup": {
   "kcal": 130,
@@ -3363,7 +8003,9 @@
   "sugar": 3,
   "sodium": 750,
   "cholesterol": 35,
-  "serving": "1 mangkuk (300 g)"
+  "serving": "1 mangkuk (300 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ikan goreng": {
   "kcal": 210,
@@ -3374,7 +8016,9 @@
   "sugar": 2,
   "sodium": 550,
   "cholesterol": 75,
-  "serving": "1 potong (120 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  },
  "ayam bakar": {
   "kcal": 290,
@@ -3385,17 +8029,8 @@
   "sugar": 3,
   "sodium": 600,
   "cholesterol": 95,
-  "serving": "1 potong (120 g)"
- },
- "hokkien fried rice": {
-  "kcal": 480,
-  "protein": 16,
-  "carbs": 62,
-  "fat": 18,
-  "fiber": 3,
-  "sugar": 4,
-  "sodium": 900,
-  "cholesterol": 120,
-  "serving": "1 piring (300 g)"
+  "serving": "1 potong (120 g)",
+  "source": "rule-estimate",
+  "reviewed": false
  }
 }
