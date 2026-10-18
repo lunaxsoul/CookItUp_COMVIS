@@ -90,17 +90,30 @@ class LocalRecipeService {
 
   /// Best available nutrition for a scan: the matched recipe's values if
   /// there is one, otherwise the label-level estimate, otherwise null.
+  /// Nutrition for a scanned label.
+  /// Priority: sourced (USDA/TKPI) label table entry, then the recipe's own
+  /// estimate, then the label table's rule-based estimate, else null.
   Future<Nutrition?> nutritionForLabel(String label, {Meal? meal}) async {
-    if (meal?.nutrition != null) return meal!.nutrition;
+    Map? raw;
     try {
       _labelNutritionCache ??= jsonDecode(
         await rootBundle.loadString('assets/data/label_nutrition.json'),
       ) as Map<String, dynamic>;
+      final r = _labelNutritionCache![label.trim().toLowerCase()];
+      if (r is Map) raw = r;
     } catch (_) {
-      return null;
+      raw = null;
     }
-    final raw = _labelNutritionCache![label.trim().toLowerCase()];
-    if (raw is! Map) return null;
+
+    final source = raw?['source']?.toString() ?? '';
+    final sourced = raw != null && source.isNotEmpty && source != 'rule-estimate';
+    if (sourced) return _fromRaw(raw!);
+    if (meal?.nutrition != null) return meal!.nutrition;
+    if (raw != null) return _fromRaw(raw);
+    return null;
+  }
+
+  Nutrition _fromRaw(Map raw) {
     double d(String k) => (raw[k] as num?)?.toDouble() ?? 0;
     return Nutrition(
       kcal: (raw['kcal'] as num?)?.toInt() ?? 0,
